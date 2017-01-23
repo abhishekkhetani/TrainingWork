@@ -1,0 +1,456 @@
+----------------------------------------
+Timestamp: 1/16/2017 9:51:50 AM
+
+Message: HandlingInstanceID: facdd3e3-e157-41b0-bba0-291d0a807946
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:21:50
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 9:51:50 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 9:52:12 AM
+
+Message: HandlingInstanceID: f7ee43f4-733c-4e0e-ac51-1ae1427c7b40
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:22:12
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 9:52:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/demopage/Action/images/logo.png
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 9:52:13 AM
+
+Message: HandlingInstanceID: e5410e39-480c-49dd-86c2-fd7eba47ea81
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:22:13
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 9:52:13 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/demopage/Action/images/logo.png
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 9:52:14 AM
+
+Message: HandlingInstanceID: c9c28d5b-47d0-42d9-8064-5e068d512a8f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:22:14
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 9:52:14 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/images/SystemLibrariesProvider/template-thumbnails/mvc_default.png?Status=Master&sfvrsn=0&MaxWidth=105&MaxHeight=80&ScaleUp=False&Quality=High&Method=ResizeFitToAreaArguments&Signature=6AA7425A1C7A838430CD2D7FFD283109A2819D42
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10944
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 10:00:04 AM
+
+Message: HandlingInstanceID: d7f78d06-19ae-4ad9-ba8d-ba98da1f5fe6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:30:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 10:00:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/images/SystemLibrariesProvider/template-thumbnails/mvc_default.png?Status=Master&sfvrsn=0&MaxWidth=105&MaxHeight=80&ScaleUp=False&Quality=High&Method=ResizeFitToAreaArguments&Signature=6AA7425A1C7A838430CD2D7FFD283109A2819D42
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 10:04:21 AM
+
+Message: HandlingInstanceID: ee79f621-4d55-4913-ba0e-6fc352f4c91e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:34:21
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 10:04:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/demopage/Action/images/logo.png
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8516
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 10:04:22 AM
+
+Message: HandlingInstanceID: b6be61b9-d296-437e-b579-90a69a502fd0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:34:22
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 10:04:22 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/demopage/Action/images/logo.png
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 10:04:23 AM
+
+Message: HandlingInstanceID: ae308e90-0f52-4054-b086-53b3752e1477
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/16/2017 15:34:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 10:04:23 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-14-131290338470886379
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:38715/DemoProject/images/SystemLibrariesProvider/template-thumbnails/mvc_default.png?Status=Master&sfvrsn=0&MaxWidth=105&MaxHeight=80&ScaleUp=False&Quality=High&Method=ResizeFitToAreaArguments&Signature=6AA7425A1C7A838430CD2D7FFD283109A2819D42
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-14-131290338470886379
+
+ProcessId: 8608
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3804
+
+Extended Properties: 
+----------------------------------------

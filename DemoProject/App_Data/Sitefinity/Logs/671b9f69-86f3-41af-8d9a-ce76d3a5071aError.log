@@ -1,0 +1,790 @@
+----------------------------------------
+Timestamp: 1/17/2017 8:24:38 AM
+
+Message: HandlingInstanceID: 7c1f9eb1-8474-4b12-af6b-81cfed335b51
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:54:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:38 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:24:38 AM
+
+Message: HandlingInstanceID: 39f370fd-f48f-4fed-a51b-834ced8cbd16
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:54:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:38 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:24:53 AM
+
+Message: HandlingInstanceID: 41471894-88a9-4051-ae1b-15fed14debc3
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+01/17/2017 13:54:53
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_Categories_Default_cshtml.Execute() in d:\Software\Sitefinity 9.2\Projects\DemoProject\obj\CodeGen\MVC\mvc\views\categories\Default.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:53 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/portfolio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10288
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:24:54 AM
+
+Message: HandlingInstanceID: 12113a44-3d48-4b29-ad31-3d23d627eb7b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:54:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:54 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:24:54 AM
+
+Message: HandlingInstanceID: 4662cea8-198b-4b80-ac4b-35d434d279ea
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:54:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:54 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6644
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:24:54 AM
+
+Message: HandlingInstanceID: c42aeb3d-8834-4b24-ad5d-45fdde10d609
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:54:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:24:54 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:25:37 AM
+
+Message: HandlingInstanceID: 3046d7d2-0d53-4787-91b8-c13484805e4b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:55:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:25:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/sf-images/default-source/Project/item1.tmb-.png?sfvrsn=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:26:34 AM
+
+Message: HandlingInstanceID: 7029894e-52ce-4df4-a7f8-e395b6db2af3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:56:34
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:26:34 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/sf-images/default-source/Project/item1.tmb-.png?sfvrsn=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7968
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:27:16 AM
+
+Message: HandlingInstanceID: 0fbb29e6-b7e0-45be-beb1-dac78f62b391
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:57:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:27:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:444
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:27:16 AM
+
+Message: HandlingInstanceID: 20986009-e426-46ea-9eea-73079db52e61
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:57:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:27:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:444
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:27:44 AM
+
+Message: HandlingInstanceID: 483be6e8-1e84-4217-9507-ac92b6ef4554
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:57:44
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:27:44 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:444
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:27:44 AM
+
+Message: HandlingInstanceID: 9435178e-a24b-4ee8-9fc8-144cd441cf5a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 13:57:44
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:27:44 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:30:08 AM
+
+Message: HandlingInstanceID: 5ecf2b2e-1381-44f2-9ffc-f87d75a58254
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 14:00:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:30:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8264
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 8:30:08 AM
+
+Message: HandlingInstanceID: 08f5b649-a2e6-459c-b58e-f42ff6a804cc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 14:00:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 8:30:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-4-131291150065247106
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:6444/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-4-131291150065247106
+
+ProcessId: 10332
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6316
+
+Extended Properties: 
+----------------------------------------

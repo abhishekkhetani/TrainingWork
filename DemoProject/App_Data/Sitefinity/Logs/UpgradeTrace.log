@@ -1,0 +1,80 @@
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: -- Telerik.Sitefinity.Publishing.Model.Dynamic_d6289d42579867978b2aff00001bc13f
+CREATE TABLE [dynmc_d6289d42579867978b2ff000] (
+    [id] uniqueidentifier NOT NULL,
+    [username] NVARCHAR(255) NULL,          -- Dynamic_d6289d42579867978b2aff00001bc13f.Username
+    [title] NVARCHAR(255) NULL,             -- Dynamic_d6289d42579867978b2aff00001bc13f.Title
+    [summary] NVARCHAR(255) NULL,           -- Dynamic_d6289d42579867978b2aff00001bc13f.Summary
+    [publication_date] DATETIME NULL,       -- Dynamic_d6289d42579867978b2aff00001bc13f.PublicationDate
+    [owner_last_name] NVARCHAR(255) NULL,   -- Dynamic_d6289d42579867978b2aff00001bc13f.OwnerLastName
+    [owner_first_name] NVARCHAR(255) NULL,  -- Dynamic_d6289d42579867978b2aff00001bc13f.OwnerFirstName
+    [owner_email] NVARCHAR(255) NULL,       -- Dynamic_d6289d42579867978b2aff00001bc13f.OwnerEmail
+    [lnk] NVARCHAR(255) NULL,               -- Dynamic_d6289d42579867978b2aff00001bc13f.Link
+    [item_hash] NVARCHAR(255) NULL,         -- Dynamic_d6289d42579867978b2aff00001bc13f.ItemHash
+    [expiration_date] DATETIME NULL,        -- Dynamic_d6289d42579867978b2aff00001bc13f.ExpirationDate
+    [content] NVARCHAR(MAX) NULL,           -- Dynamic_d6289d42579867978b2aff00001bc13f.Content
+    [categories] NVARCHAR(255) NULL,        -- Dynamic_d6289d42579867978b2aff00001bc13f.Categories
+    CONSTRAINT [pk_dynmc_d6289d425798_11F3FB03] PRIMARY KEY ([id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: -- add column for field <internal-class-id>
+ALTER TABLE [sf_dynamic_type_base] ADD [voa_class] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: UPDATE [sf_dynamic_type_base] SET [voa_class] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: ALTER TABLE [sf_dynamic_type_base] ALTER COLUMN [voa_class] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/20/2017 10:39:10 AM
+
+Message: ALTER TABLE [dynmc_d6289d42579867978b2ff000] ADD CONSTRAINT [ref_dynmc_d6289d42579_1B891D81] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+
+
+----------------------------------------

@@ -1,0 +1,322 @@
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Service.Services
+CREATE TABLE [service_services] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- Services.Title
+    [Name] NVARCHAR(255) NULL,              -- Services.Name
+    [Designation] NVARCHAR(255) NULL,       -- Services.Designation
+    CONSTRAINT [pk_service_services] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: -- add column for field <internal-class-id>
+ALTER TABLE [sf_dynamic_content] ADD [voa_class] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: UPDATE [sf_dynamic_content] SET [voa_class] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: ALTER TABLE [sf_dynamic_content] ALTER COLUMN [voa_class] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:25:32 PM
+
+Message: ALTER TABLE [service_services] ADD CONSTRAINT [ref_srvc_srvcs_sf_dyn_7F125BA1] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:42:00 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:42:00 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:42:00 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:42:00 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Services.abhishekkhetani
+CREATE TABLE [services_abhishekkhetani] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- abhishekkhetani.Title
+    [Description] NVARCHAR(MAX) NULL,       -- abhishekkhetani.Description
+    CONSTRAINT [pk_services_abhishekkhetani] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:42:00 PM
+
+Message: ALTER TABLE [services_abhishekkhetani] ADD CONSTRAINT [ref_srvcs_bhshkkhtn_s_C919C22D] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:50:52 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:50:52 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:50:52 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:50:52 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Testimonial.Testimonial
+CREATE TABLE [testimonial_testimonial] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Name] NVARCHAR(255) NULL,              -- Testimonial.Name
+    [Description] NVARCHAR(MAX) NULL,       -- Testimonial.Description
+    CONSTRAINT [pk_testimonial_testimonial] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:50:52 PM
+
+Message: ALTER TABLE [testimonial_testimonial] ADD CONSTRAINT [ref_tstmnl_tstmnl_sf__115E166A] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:51:09 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:51:09 PM
+
+Message: -- dropping table [service_services]
+DROP TABLE [service_services]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Portfolio.abhishekkhetani
+CREATE TABLE [portfolio_abhishekkhetani] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- abhishekkhetani.Title
+    [Description] NVARCHAR(MAX) NULL,       -- abhishekkhetani.Description
+    CONSTRAINT [pk_portfolio_abhishekkhetani] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.Portfolio.abhishekkhetani.Category
+CREATE TABLE [prtfl_abhishekkhetani_category] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_prtfl_bhshkkhtn_ct_20CEC40F] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: ALTER TABLE [portfolio_abhishekkhetani] ADD CONSTRAINT [ref_prtfl_bhshkkhtn_s_6738605E] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: ALTER TABLE [prtfl_abhishekkhetani_category] ADD CONSTRAINT [ref_prtfl_bhshkkhtn_c_A59B408D] FOREIGN KEY ([base_id]) REFERENCES [portfolio_abhishekkhetani]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:54:44 PM
+
+Message: -- Index 'idx_prtfl_bhshkkhtn_ctgory_val' was not detected in the database. It will be created
+CREATE INDEX [idx_prtfl_bhshkkhtn_ctgory_val] ON [prtfl_abhishekkhetani_category]([val])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:21 PM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:21 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:21 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:21 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.ClientTestimonial.ClientTestimonial
+CREATE TABLE [clienttestimonial_clienttestimonial] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Name] NVARCHAR(255) NULL,              -- ClientTestimonial.Name
+    [Description] NVARCHAR(MAX) NULL,       -- ClientTestimonial.Description
+    CONSTRAINT [pk_clnttstmnl_clnttst_6F4BA068] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:21 PM
+
+Message: ALTER TABLE [clienttestimonial_clienttestimonial] ADD CONSTRAINT [ref_clnttstmnl_clntts_4F5C11FF] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:37 PM
+
+Message: Db Migration Complexity: Complex
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/16/2017 12:57:37 PM
+
+Message: -- dropping table [testimonial_testimonial]
+DROP TABLE [testimonial_testimonial]
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 10:19:01 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 10:19:01 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 10:19:01 AM
+
+Message: -- add column for field ClientTestimonial.Designation
+ALTER TABLE [clienttestimonial_clienttestimonial] ADD [Designation] NVARCHAR(255) NULL
+
+
+----------------------------------------

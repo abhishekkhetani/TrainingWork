@@ -1,0 +1,1430 @@
+----------------------------------------
+Timestamp: 1/18/2017 1:24:13 PM
+
+Message: HandlingInstanceID: ec4f7e6a-9e31-42df-be93-c427704e811e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:54:13
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:24:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: e21c91f5-feef-4ab0-9731-e01328753135
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: 54dae792-af3b-42bd-9f0e-d669177d3085
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img1.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:1112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: 37018a89-a767-4e4b-9150-d64c257c71ac
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img3.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: 31e1d4bf-b8e8-4a37-865b-0eadea05d2d0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img2.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: 446b077d-a913-4346-9365-06018a7835b0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/logo.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: ff915e26-e503-4bd9-896f-2a328c721f99
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item1
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: efde7290-62c1-4cc8-a1d6-c5268357ec1e
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item4
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:08 PM
+
+Message: HandlingInstanceID: b2167679-58b6-4abe-ac3d-62d2063b8df0
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:08
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item3
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:1112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 662fa333-691e-4077-9431-1e195ac4fea2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11836
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 6370a0d3-7591-4653-ba6c-1568c08c1a85
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img1.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 0533e2ea-0ba9-4ea5-a37a-6174af084e24
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/logo.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:1112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 9628762e-6e96-4bc7-a960-cce116c162ed
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img3.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 8ad78a05-0c33-4a56-8824-c51830affef6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/bg1.jpg?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 91c584c6-d490-44db-8264-e949d100517c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/bg2.jpg?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3848
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 4d8f3799-a3ff-43ce-a343-63d9f3b5f67a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/img2.png?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11836
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 94189cdb-5169-4e46-850e-1ba3a3c2cd1a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/slider/bg3.jpg?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: e09eaf8f-b54f-4ee8-af7e-17b3def3ed95
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item1
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: 3b3d4245-d19b-4f7f-8610-49764099442d
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item3
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:1112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/18/2017 1:25:09 PM
+
+Message: HandlingInstanceID: a7f05949-7041-4e95-9965-c821f84d2c93
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/18/2017 18:55:09
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/18/2017 1:25:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 397016c3-1-131292193985547762
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:59174/DemoProject/home/Action/images/default-source/Project/item4
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view 'List.ServiceCustom' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml
+~/Views/abhishekkhetani/List.ServiceCustom.aspx
+~/Views/abhishekkhetani/List.ServiceCustom.ascx
+~/Views/Shared/List.ServiceCustom.aspx
+~/Views/Shared/List.ServiceCustom.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.aspx#DemoTemplate.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.ascx#DemoTemplate.ascx
+~/Views/abhishekkhetani/List.ServiceCustom.vbhtml
+~/Views/Shared/List.ServiceCustom.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend.DynamicContent/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/abhishekkhetani/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.cshtml#DemoTemplate.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.ServiceCustom.vbhtml#DemoTemplate.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: 397016c3-1-131292193985547762
+
+ProcessId: 10176
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12052
+
+Extended Properties: 
+----------------------------------------
