@@ -1,0 +1,41 @@
+﻿@model Telerik.Sitefinity.Frontend.Taxonomies.Mvc.Models.TaxonomyViewModel
+
+@using Telerik.Sitefinity.Frontend.Taxonomies.Mvc.Models;
+
+<div class="@Model.CssClass dropdown">
+    <ul>
+        @foreach (var taxon in Model.Taxa)
+        {
+            @RenderTaxaRecursive(taxon);
+        }
+    </ul>
+</div>
+
+@helper RenderTaxaRecursive(TaxonViewModel taxon)
+{
+    <li>
+         @if (taxon.SubTaxa.Count > 0)
+         {
+            <a data-sf-toggle class="sf-closed"></a>
+         }
+
+        <a href="@taxon.Url"><span>@taxon.Title</span></a>
+
+    @if (Model.ShowItemCount)
+    {
+        <span>@Html.Raw(string.Format("({0})", taxon.Count))</span>
+    }
+
+    <br />
+
+    @if (taxon.SubTaxa.Count > 0)
+    {
+        <ul data-sf-submenu class="sf-submenu sf-closed">
+                 @foreach (var childTaxon in taxon.SubTaxa)
+                 {
+                    @RenderTaxaRecursive(childTaxon);
+                 }                
+            </ul>
+         }
+    </li>
+}

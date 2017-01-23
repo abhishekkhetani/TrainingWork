@@ -1,0 +1,30 @@
+@model List<SitefinityWebApp.Mvc.Models.ServicesModel>
+
+@*<h1>
+        @Html.Raw(Model.Message)
+    </h1>*@
+
+<section id="services" class="service-item">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Our Service</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+        <div class="row">
+            @foreach (SitefinityWebApp.Mvc.Models.ServicesModel servicesModel in Model)
+            {
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="@servicesModel.Photo_Path">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">@servicesModel.Title</h3>
+                            <p>@servicesModel.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#services-->
