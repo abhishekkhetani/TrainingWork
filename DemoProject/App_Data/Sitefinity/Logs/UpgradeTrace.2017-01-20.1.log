@@ -1,0 +1,41 @@
+----------------------------------------
+Timestamp: 1/19/2017 8:55:52 AM
+
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/19/2017 8:55:52 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/19/2017 8:55:52 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/19/2017 8:55:52 AM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.Skill.skills
+CREATE TABLE [skill_skills] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Skill] NVARCHAR(255) NULL,             -- skills.Skill
+    [Percentage] DECIMAL(20) NULL,          -- skills.Percentage
+    CONSTRAINT [pk_skill_skills] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/19/2017 8:55:52 AM
+
+Message: ALTER TABLE [skill_skills] ADD CONSTRAINT [ref_skll_sklls_sf_dyn_1A90E131] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------

@@ -1,0 +1,177 @@
+----------------------------------------
+Timestamp: 1/16/2017 10:17:46 AM
+
+Message: HandlingInstanceID: 6bb9c8ef-22b1-4ce7-adb8-19895b41bb4a
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/16/2017 15:47:46
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to upgrade database schema metadataSource provided by 'Telerik.Sitefinity.Configuration.Data.OpenAccessXmlConfigStorageProvider': Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE Sitefinity_v9.2' : Incorrect syntax near '.2'.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void HandleDatabaseUpgrade(Telerik.OpenAccess.Metadata.MetadataContainer, System.String, Telerik.Sitefinity.Data.OA.ISitefinityMetadataSource, Telerik.Sitefinity.Data.IOpenAccessMetadataProvider, Telerik.OpenAccess.Database, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.OA.OpenAccessConnection.HandleDatabaseUpgrade(MetadataContainer newMetadataContainer, String moduleName, ISitefinityMetadataSource sitefinityMetaDataSource, IOpenAccessMetadataProvider provider, Database database, String connString)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.OptimizedMetadataUpdateStrategy.ReplaceMetadata(OpenAccessConnection connection, MetadataContainer newMetadataContainer, String moduleName, ISitefinityMetadataSource sitefinityMetaDataSource, IOpenAccessMetadataProvider provider)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpdateMetadata(MetadataSource metadataSource, String moduleName, IOpenAccessMetadataProvider provider, IEnumerable`1 combinedModules)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.Extend(MetadataSource metadataSource, String moduleName, IOpenAccessMetadataProvider provider, Boolean safeMode, IEnumerable`1 combinedModules)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.RegisterProviderInternal(IOpenAccessMetadataProvider provider, Boolean forceDatabaseInit, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.RegisterProvider(IOpenAccessMetadataProvider provider, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.InitializeProvider(IOpenAccessMetadataProvider provider, String connectionName, Boolean safeMode)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.GetContext(IOpenAccessMetadataProvider provider, String connectionName, Boolean safeMode)
+   at Telerik.Sitefinity.Configuration.Data.OpenAccessXmlConfigStorageProvider.GetElement(String path)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.GetElementDatabaseReader(String path)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadElementFromDatabase(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.TryLoadSectionFromDatabase(ConfigSection section, Boolean initial)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Configuration.Config.Get[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Configuration.Config.Get[TSection]()
+   at Telerik.Sitefinity.Data.Metadata.MetadataManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/16/2017 10:17:46 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/4/ROOT-6-131290354331768612
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\DemoProject
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Telerik.OpenAccess.OpenAccessException: SQL exception on 'CREATE DATABASE Sitefinity_v9.2' : Incorrect syntax near '.2'.
+	Source : Telerik.OpenAccess
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : 
+	Reason : Runtime
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowException(System.Exception)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+	   at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+	   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+	   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+	   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
+	   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, ISchemaHandler& schemaHandler)
+	   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
+	   at Telerik.Sitefinity.Configuration.Data.OpenAccessXmlConfigStorageProvider.Telerik.Sitefinity.Data.OA.IOpenAccessSelfUpgradableProvider.Update(OpenAccessConnection oaConnection, Database database, String newConnectionString, MetadataContainer newMetadataContainer, UpgradeDatabaseScheme defaultUpgradeSchemeMethod)
+	   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.MetadataUpgradeFacade.UpgradeSchema(ISchemaHandler schemaHandler)
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : SQL exception on 'CREATE DATABASE Sitefinity_v9.2' : Incorrect syntax near '.2'.
+		Source : Telerik.OpenAccess
+		Help link : 
+		InnerExceptions : System.Exception[]
+		FailedObject : 
+		BackendError : Telerik.OpenAccess.RT.sql.SQLException: Incorrect syntax near '.2'. ---> System.Data.SqlClient.SqlException: Incorrect syntax near '.2'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteNonQuery()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+		Reason : Runtime
+		CanRetry : True
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void ThrowException(System.Exception)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
+		   at OpenAccessRuntime.ExceptionWrapper.Throw()
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlScript(String script, Connection con, SqlDriver sqlDriver, Boolean noShredder)
+		   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+			Inner Exception
+			---------------
+			Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+			Message : Incorrect syntax near '.2'.
+			Source : Telerik.OpenAccess.Runtime
+			Help link : 
+			ErrorCode : 102
+			ArrayBindIndex : -1
+			Number : 102
+			ObjectId : 
+			Description : Incorrect syntax near '.2'.
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : Int32 executeUpdate(System.String)
+			HResult : -2146233088
+			Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+			   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.execute(String sql)
+			   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.ExecuteSqlStatements(IEnumerable`1 statements, Connection con)
+
+				Inner Exception
+				---------------
+				Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+				Message : Incorrect syntax near '.2'.
+				Source : .Net SqlClient Data Provider
+				Help link : 
+				Errors : System.Data.SqlClient.SqlErrorCollection
+				ClientConnectionId : c6bded73-41d1-4302-a437-a37f6466567c
+				Class : 15
+				LineNumber : 1
+				Number : 102
+				Procedure : 
+				Server : CIPL-PC146
+				State : 1
+				ErrorCode : -2146232060
+				Data : System.Collections.ListDictionaryInternal
+				TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+				HResult : -2146232060
+				Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+				   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+				   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+				   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+				   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+				   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+				   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.CommandImp.ExecuteNonQuery()
+				   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.StatementImp.executeUpdate(String sql)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: /LM/W3SVC/4/ROOT-6-131290354331768612
+
+ProcessId: 7768
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6472
+
+Extended Properties: 
+----------------------------------------

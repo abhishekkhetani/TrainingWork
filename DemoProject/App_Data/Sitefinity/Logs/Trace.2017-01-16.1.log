@@ -1,0 +1,1245 @@
+----------------------------------------
+Timestamp: 1/12/2017 1:12:32 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void InstallDefaults()
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/12/2017 1:12:44 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Libraries.Data.OpenAccessLibrariesProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/12/2017 1:12:58 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Ecommerce.Catalog.Data.OpenAccessCatalogDataProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/12/2017 1:13:05 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/12/2017 1:13:30 PM
+
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'SystemSetup'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/12/2017 1:13:39 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator: Void EnsureModelReset()
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_4c96d92450ab480a8a68281415721c2a: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__36(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_4c96d92450ab480a8a68281415721c2a: Void CommitTransaction(Boolean)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_4c96d92450ab480a8a68281415721c2a: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__35(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_4c96d92450ab480a8a68281415721c2a: Void CommitTransaction()
+Telerik.Sitefinity.Data.ManagerBase`1: Void SaveChanges(System.String)
+Telerik.Sitefinity.Publishing.PublishingPoints.PublishingPointFactory: Void CreatePublishingPointDataItem(System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Publishing.Model.IDefinitionField], Telerik.Sitefinity.Publishing.Model.IPublishingPoint, Telerik.Sitefinity.Data.Metadata.MetadataManager)
+Telerik.Sitefinity.Forums.ForumsModule: Void CreateForumPublishingPoint()
+Telerik.Sitefinity.Publishing.PublishingModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Web.UI.Backend.StartupWizard: Void wizard_FinishButtonClick(System.Object, Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Void OnFinishButtonClick(Telerik.Sitefinity.Web.UI.Backend.InternalWizardNavigationEventArgs)
+Telerik.Sitefinity.Web.UI.Backend.InternalWizard: Boolean OnBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Control: Void RaiseBubbleEvent(System.Object, System.EventArgs)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+ApplicationStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult System.Web.IHttpAsyncHandler.BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object)
+System.Web.HttpRuntime: Void ProcessRequestInternal(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequestNoDemand(System.Web.HttpWorkerRequest)
+System.Web.HttpRuntime: Void ProcessRequest(System.Web.HttpWorkerRequest)
+Telerik.Utilities.Cassini.Host: Void ProcessRequest(Telerik.Utilities.Cassini.Connection)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:52 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:52 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:53 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:10:54 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:11:22 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:11:22 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:01 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:01 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:02 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:02 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:31 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:46:31 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:15 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:15 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:15 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:15 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:15 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:16 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:16 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:45 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 6:58:45 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:19 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:19 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:20 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:49 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:07:49 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:11:40 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:12:10 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:12:10 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:08 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:08 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:09 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:09 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:09 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:38 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 7:16:38 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:02 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:02 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:03 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:03 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:33 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:35:33 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:20 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:50 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:44:50 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:28 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:58 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 8:53:58 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:21 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:51 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:01:51 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:08:19 AM
+
+Message: Error while executing the Task: Value cannot be null.
+Parameter name: input, StackTrace:    at System.Guid.Parse(String input)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.ReconcileUserData()
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Services.Statistics.ReconcilerTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:12:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:13:22 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 9:13:22 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:05 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:05 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:06 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:06 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:06 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:06 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:06 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:35 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 10:51:35 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:55 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:23:55 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:08 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:38 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:37:38 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:39:51 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:40:21 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:40:21 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:00 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:30 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 11:42:30 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2017 12:20:31 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------

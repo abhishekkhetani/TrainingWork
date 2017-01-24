@@ -1,0 +1,226 @@
+----------------------------------------
+Timestamp: 1/17/2017 12:06:13 PM
+
+Message: HandlingInstanceID: 709b775a-14d7-4afa-9f20-2e3c902820c9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 17:36:13
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 12:06:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/17/ROOT-1-131291282168558745
+ThreadIdentity : abhishekkhetani
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/js/bootstrap.min.js?package=DemoTemplate
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: /LM/W3SVC/17/ROOT-1-131291282168558745
+
+ProcessId: 9412
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 12:09:52 PM
+
+Message: HandlingInstanceID: 5f0ee5e6-7fc5-4107-ae79-e1e36b01fda6
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/17/2017 17:39:52
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "Telerik.Sitefinity.DynamicTypes.Model.abhishekkhetani" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.ResolveType(String name)
+   at SitefinityWebApp.Mvc.Controllers.RecentController.Index() in d:\Software\Sitefinity 9.2\Projects\DemoProject\Mvc\Controllers\RecentController.cs:line 40
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 12:09:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/17/ROOT-1-131291282168558745
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:60876/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: /LM/W3SVC/17/ROOT-1-131291282168558745
+
+ProcessId: 9412
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8852
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/17/2017 12:09:53 PM
+
+Message: HandlingInstanceID: c52739ca-0e14-4456-91cf-fe2f9180e5e4
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+01/17/2017 17:39:53
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Row not found: GenericOID@a5c6cf24 PageDraft id=aa4d9d42-5798-6797-8b2a-ff00001bc13f
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [last_control_id2] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Row not found: GenericOID@a5c6cf24 PageDraft id=aa4d9d42-5798-6797-8b2a-ff00001bc13f
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [last_control_id2] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean DiscardPageDraft(System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardPageDraft(String draftId)
+   at SyncInvokeDiscardPageDraft(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/17/2017 12:09:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/17/ROOT-1-131291282168558745
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Page/aa4d9d42-5798-6797-8b2a-ff00001bc13f/?package=DemoTemplate
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.OptimisticVerificationException, Telerik.OpenAccess, Version=2016.2.822.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Row not found: GenericOID@a5c6cf24 PageDraft id=aa4d9d42-5798-6797-8b2a-ff00001bc13f
+UPDATE [sf_draft_pages] SET [last_modified] = ?, [vrsion] = ?, [voa_version] = ?, [last_control_id2] = ? WHERE [id] = ? AND [voa_version] = ?
+(set event logging to all to see parameter values)
+	Source : Unity_ILEmit_DynamicClasses
+	Help link : 
+	NumberOfConflicts : 1
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : 
+	Reason : OptimisticVerification
+	CanRetry : True
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void CommitTransaction()
+	HResult : -2146233088
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_6282ea11ccdc4db09b57293dbe181c2f.CommitTransaction()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges(String eventOrigin)
+	   at Telerik.Sitefinity.Data.ManagerBase`1.SaveChanges()
+	   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DiscardPageDraft(String draftId)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: /LM/W3SVC/17/ROOT-1-131291282168558745
+
+ProcessId: 9412
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2812
+
+Extended Properties: 
+----------------------------------------
