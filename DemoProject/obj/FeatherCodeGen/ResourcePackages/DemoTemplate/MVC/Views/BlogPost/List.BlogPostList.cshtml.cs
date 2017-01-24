@@ -378,16 +378,20 @@ WriteLiteral("        <ul");
 
 WriteLiteral(" class=\"pagination pagination-lg\"");
 
-WriteLiteral(">\r\n            <li><a");
+WriteLiteral(">\r\n            <li");
 
-WriteAttribute("href", Tuple.Create(" href=\'", 2906), Tuple.Create("\'", 2935)
+WriteLiteral(" class=\"next-page\"");
+
+WriteLiteral("><a");
+
+WriteAttribute("href", Tuple.Create(" href=\"", 2924), Tuple.Create("\"", 2953)
             
             #line 67 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-, Tuple.Create(Tuple.Create("", 2913), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage+1
+, Tuple.Create(Tuple.Create("", 2931), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage+1
             
             #line default
             #line hidden
-, 2913), false)
+, 2931), false)
 );
 
 WriteLiteral(">Next Page<i");
@@ -403,7 +407,32 @@ WriteLiteral("></i></a></li>\r\n        </ul>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n</div>\r\n");
+WriteLiteral("\r\n</div>\r\n\r\n<script");
+
+WriteLiteral(" type=\"text/javascript\"");
+
+WriteLiteral(">\r\n    var path = window.location.pathname;\r\n    if (path == \'/blog/\') {\r\n\r\n     " +
+"   var next_Page = (");
+
+            
+            #line 77 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                    Write(Model.CurrentPage);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("+1);\r\n        $(\".next-page a\").attr(\"href\", path + next_Page);\r\n    }\r\n    if (p" +
+"ath == \'/blog\') {\r\n\r\n        var next_Page = (");
+
+            
+            #line 82 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                    Write(Model.CurrentPage);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("+1);\r\n        $(\".next-page a\").attr(\"href\", path + \'/\' + next_Page);\r\n    }\r\n</s" +
+"cript>");
 
         }
     }

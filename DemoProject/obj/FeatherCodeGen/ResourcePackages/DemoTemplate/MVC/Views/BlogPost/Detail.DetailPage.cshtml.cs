@@ -77,56 +77,52 @@ WriteLiteral(" ");
             #line hidden
 WriteLiteral(">\r\n\r\n    <div");
 
-WriteLiteral(" class=\"col-md-8\"");
-
-WriteLiteral(">\r\n        <div");
-
 WriteLiteral(" class=\"blog-item\"");
 
-WriteLiteral(">\r\n            <img");
+WriteLiteral(">\r\n        <img");
 
 WriteLiteral(" class=\"img-responsive img-blog\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 446), Tuple.Create("\"", 492)
+WriteAttribute("src", Tuple.Create(" src=\"", 410), Tuple.Create("\"", 456)
             
-            #line 11 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 452), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.Image.Fields.MediaUrl
+            #line 10 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 416), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.Image.Fields.MediaUrl
             
             #line default
             #line hidden
-, 452), false)
+, 416), false)
 );
 
 WriteLiteral(" width=\"100%\"");
 
 WriteLiteral(" alt=\"\"");
 
-WriteLiteral(" />\r\n            <div");
+WriteLiteral(" />\r\n        <div");
 
 WriteLiteral(" class=\"row\"");
 
-WriteLiteral(">\r\n                <div");
+WriteLiteral(">\r\n            <div");
 
 WriteLiteral(" class=\"col-xs-12 col-sm-2 text-center\"");
 
-WriteLiteral(">\r\n                    <div");
+WriteLiteral(">\r\n                <div");
 
 WriteLiteral(" class=\"entry-meta\"");
 
-WriteLiteral(">\r\n                        <span");
+WriteLiteral(">\r\n                    <span");
 
 WriteLiteral(" id=\"publish_date\"");
 
 WriteLiteral(">");
 
             
-            #line 15 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                           Write(Model.Item.GetDateTime("PublicationDate", "dd MMM"));
+            #line 14 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                       Write(Model.Item.GetDateTime("PublicationDate", "dd MMM"));
 
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n                        <span><i");
+WriteLiteral("</span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-user\"");
 
@@ -137,13 +133,13 @@ WriteLiteral(" href=\"#\"");
 WriteLiteral("> ");
 
             
-            #line 16 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                                                 Write(DataResolver.Resolve(@Model.Item.DataItem, "Author", null));
+            #line 15 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                                             Write(DataResolver.Resolve(@Model.Item.DataItem, "Author", null));
 
             
             #line default
             #line hidden
-WriteLiteral("</a></span>\r\n                        <span><i");
+WriteLiteral("</a></span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-comment\"");
 
@@ -154,13 +150,13 @@ WriteLiteral(" href=\"blog-item.html#comments\"");
 WriteLiteral(">");
 
             
-            #line 17 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                                                                         Write(Html.CommentsCount(string.Empty, @Model.Item.DataItem));
+            #line 16 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                                                                     Write(Html.CommentsCount(string.Empty, @Model.Item.DataItem));
 
             
             #line default
             #line hidden
-WriteLiteral("</a></span>\r\n                        <span><i");
+WriteLiteral("</a></span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-heart\"");
 
@@ -168,36 +164,16 @@ WriteLiteral("></i><a");
 
 WriteLiteral(" href=\"#\"");
 
-WriteLiteral(">56 Likes</a></span>\r\n                    </div>\r\n                </div>\r\n       " +
-"         <div");
+WriteLiteral(">56 Likes</a></span>\r\n                </div>\r\n            </div>\r\n            <di" +
+"v");
 
 WriteLiteral(" class=\"col-xs-12 col-sm-10 blog-content\"");
 
-WriteLiteral(">\r\n                    <h2 ");
+WriteLiteral(">\r\n                <h2 ");
 
             
-            #line 22 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                   Write(Html.InlineEditingFieldAttributes("Title", "ShortText"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral(">");
-
-            
-            #line 22 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                                                            Write(Model.Item.Fields.Title);
-
-            
-            #line default
-            #line hidden
-WriteLiteral("</h2>\r\n                    ");
-
-WriteLiteral("\r\n\r\n                    <p ");
-
-            
-            #line 25 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                  Write(Html.InlineEditingFieldAttributes("Content", "LongText"));
+            #line 21 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+               Write(Html.InlineEditingFieldAttributes("Title", "ShortText"));
 
             
             #line default
@@ -205,17 +181,37 @@ WriteLiteral("\r\n\r\n                    <p ");
 WriteLiteral(">");
 
             
-            #line 25 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                                                            Write(Html.Raw(Model.Item.Fields.Content));
+            #line 21 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                                                        Write(Model.Item.Fields.Title);
 
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n\r\n                    <div");
+WriteLiteral("</h2>\r\n                ");
+
+WriteLiteral("\r\n\r\n                <p ");
+
+            
+            #line 24 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+              Write(Html.InlineEditingFieldAttributes("Content", "LongText"));
+
+            
+            #line default
+            #line hidden
+WriteLiteral(">");
+
+            
+            #line 24 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                                                        Write(Html.Raw(Model.Item.Fields.Content));
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</p>\r\n\r\n                <div");
 
 WriteLiteral(" class=\"post-tags\"");
 
-WriteLiteral(">\r\n                        <strong>Tag:</strong> <a");
+WriteLiteral(">\r\n                    <strong>Tag:</strong> <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -227,53 +223,111 @@ WriteLiteral(">Creative</a> / <a");
 
 WriteLiteral(" href=\"#\"");
 
-WriteLiteral(">Dubttstep</a>\r\n                    </div>\r\n                        \r\n           " +
-"     </div>\r\n            </div>\r\n        </div><!--/.blog-item-->\r\n    </div>\r\n\r" +
-"\n");
+WriteLiteral(">Dubttstep</a>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n   " +
+" </div><!--/.blog-item-->\r\n\r\n    <div");
+
+WriteLiteral(" class=\"media reply_section\"");
+
+WriteLiteral(">\r\n        <div");
+
+WriteLiteral(" class=\"pull-left post_reply text-center\"");
+
+WriteLiteral(">\r\n            <a");
+
+WriteLiteral(" href=\"#\"");
+
+WriteLiteral("><img");
+
+WriteLiteral(" src=\"/images/default-source/Project/blog/boy.png\"");
+
+WriteLiteral(" class=\"img-circle\"");
+
+WriteLiteral(" alt=\"\"");
+
+WriteLiteral(" /></a>\r\n            <ul>\r\n                <li><a");
+
+WriteLiteral(" href=\"#\"");
+
+WriteLiteral("><i");
+
+WriteLiteral(" class=\"fa fa-facebook\"");
+
+WriteLiteral("></i></a></li>\r\n                <li><a");
+
+WriteLiteral(" href=\"#\"");
+
+WriteLiteral("><i");
+
+WriteLiteral(" class=\"fa fa-twitter\"");
+
+WriteLiteral("></i></a></li>\r\n                <li><a");
+
+WriteLiteral(" href=\"#\"");
+
+WriteLiteral("><i");
+
+WriteLiteral(" class=\"fa fa-google-plus\"");
+
+WriteLiteral("></i> </a></li>\r\n            </ul>\r\n        </div>\r\n        <div");
+
+WriteLiteral(" class=\"media-body post_reply_content\"");
+
+WriteLiteral(">\r\n            <h3>Antone L. Huges</h3>\r\n            <p");
+
+WriteLiteral(" class=\"lead\"");
+
+WriteLiteral(@">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturp</p>
+            <p><strong>Web:</strong> <a");
+
+WriteLiteral(" href=\"http://www.shapebootstrap.net\"");
+
+WriteLiteral(">www.shapebootstrap.net</a></p>\r\n        </div>\r\n    </div>\r\n \r\n     <div>\r\n");
 
             
-            #line 36 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-    
+            #line 51 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+        
             
             #line default
             #line hidden
             
-            #line 36 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-      
-        if (Model.EnableSocialSharing)
-        {
-            var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
-            
+            #line 51 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+          
+            if (Model.EnableSocialSharing)
+            {
+                var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
+                
             
             #line default
             #line hidden
             
-            #line 40 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-       Write(Html.SocialShareOptions(item));
+            #line 55 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+           Write(Html.SocialShareOptions(item));
 
             
             #line default
             #line hidden
             
-            #line 40 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                          ;
-        }
-    
+            #line 55 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                              ;
+            }
+        
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\r\n\r\n         ");
 
-WriteLiteral("    ");
+WriteLiteral("\r\n        \r\n\r\n");
+
+WriteLiteral("        ");
 
             
-            #line 44 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-Write(Html.CommentsList(@Model.Item.DataItem));
+            #line 62 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+   Write(Html.CommentsList(@Model.Item.DataItem));
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n</div>");
+WriteLiteral("\r\n    </div>\r\n\r\n</div>");
 
         }
     }

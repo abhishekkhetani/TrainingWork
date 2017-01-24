@@ -1,10 +1,9 @@
-D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.DemoTemplate.dll
-D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.DemoTemplate.pdb
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.DemoTemplate.dll
+D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.ResourcePackages.DemoTemplate.pdb
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.dll.config
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.dll
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.pdb
 D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.dll
 D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.pdb
-D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
