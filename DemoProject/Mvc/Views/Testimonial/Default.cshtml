@@ -1,0 +1,17 @@
+@model List<SitefinityWebApp.Mvc.Models.TestimonialModel>
+
+@*<h1>
+    @Html.Raw(Model.Message)
+</h1>*@
+
+
+@foreach(SitefinityWebApp.Mvc.Models.TestimonialModel testimonial in Model){
+    
+    <div class="col-md-4 wow fadeInDown">
+                    <div class="clients-comments text-center">
+                        <img src="@testimonial.Image_Path" class="img-circle" alt="">
+                        <h3>@testimonial.Description</h3>
+                        <h4><span>-@testimonial.Client_Name /</span>  @testimonial.Designation</h4>
+                    </div>
+                </div>
+}

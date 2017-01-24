@@ -1,0 +1,46 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Web.DataResolving;
+
+<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+
+    <div class="col-md-8">
+        <div class="blog-item">
+            <img class="img-responsive img-blog" src="@Model.Item.Fields.Image.Fields.MediaUrl" width="100%" alt="" />
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 text-center">
+                    <div class="entry-meta">
+                        <span id="publish_date">@Model.Item.GetDateTime("PublicationDate", "dd MMM")</span>
+                        <span><i class="fa fa-user"></i> <a href="#"> @DataResolver.Resolve(@Model.Item.DataItem, "Author", null)</a></span>
+                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">@Html.CommentsCount(string.Empty, @Model.Item.DataItem)</a></span>
+                        <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-10 blog-content">
+                    <h2 @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</h2>
+                    @*<p @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</p>*@
+
+                    <p @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</p>
+
+                    <div class="post-tags">
+                        <strong>Tag:</strong> <a href="#">Cool</a> / <a href="#">Creative</a> / <a href="#">Dubttstep</a>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--/.blog-item-->
+    </div>
+    <div>
+        @{
+            if (Model.EnableSocialSharing)
+            {
+                var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
+                @Html.SocialShareOptions(item);
+            }
+        }
+
+        @Html.CommentsList(@Model.Item.DataItem)
+    </div>
+</div>

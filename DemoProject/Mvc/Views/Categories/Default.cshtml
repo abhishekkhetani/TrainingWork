@@ -1,0 +1,37 @@
+@model List<SitefinityWebApp.Mvc.Models.CategoriesModel>
+
+@*<h1>
+    @Html.Raw(Model.Message)
+</h1>*@
+
+    <ul class="portfolio-filter text-center">
+        <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
+        @foreach (var category in ViewBag.Categories)
+        {
+            <li><a class="btn btn-default" href="#" data-filter=".@category">@category</a></li>
+        }
+    </ul><!--/#portfolio-filter-->
+
+
+        <div class="portfolio-items">
+                        @foreach (SitefinityWebApp.Mvc.Models.CategoriesModel portfolio in Model)
+                        {
+                            string a="";          
+                            foreach (var categoryName in portfolio.Category_Name)
+                            {
+                                a += categoryName + " ";
+                            }
+                <div class="portfolio-item @a col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" @*width="290" height="220"*@ src="@portfolio.Portfolio_Photo_Path">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">@portfolio.Portfolio_Name</a></h3>
+                                <p>@portfolio.Portfolio_Description</p>
+                                <a class="preview" href="@portfolio.Portfolio_Photo_Path" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            }
+        </div>

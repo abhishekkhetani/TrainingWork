@@ -99,11 +99,7 @@ WriteLiteral("</a></li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("    </ul><!--/#portfolio-filter-->\r\n\r\n    <div");
-
-WriteLiteral(" class=\"row\"");
-
-WriteLiteral(">\r\n        <div");
+WriteLiteral("    </ul><!--/#portfolio-filter-->\r\n\r\n\r\n        <div");
 
 WriteLiteral(" class=\"portfolio-items\"");
 
@@ -130,18 +126,18 @@ WriteLiteral(">\r\n");
             #line hidden
 WriteLiteral("                <div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 922), Tuple.Create("\"", 975)
-, Tuple.Create(Tuple.Create("", 930), Tuple.Create("portfolio-item", 930), true)
+WriteAttribute("class", Tuple.Create(" class=\"", 901), Tuple.Create("\"", 954)
+, Tuple.Create(Tuple.Create("", 909), Tuple.Create("portfolio-item", 909), true)
             
             #line 24 "..\..\MVC\Views\Categories\Default.cshtml"
-, Tuple.Create(Tuple.Create(" ", 944), Tuple.Create<System.Object, System.Int32>(a
+, Tuple.Create(Tuple.Create(" ", 923), Tuple.Create<System.Object, System.Int32>(a
             
             #line default
             #line hidden
-, 945), false)
-, Tuple.Create(Tuple.Create(" ", 947), Tuple.Create("col-xs-12", 948), true)
-, Tuple.Create(Tuple.Create(" ", 957), Tuple.Create("col-sm-4", 958), true)
-, Tuple.Create(Tuple.Create(" ", 966), Tuple.Create("col-md-3", 967), true)
+, 924), false)
+, Tuple.Create(Tuple.Create(" ", 926), Tuple.Create("col-xs-12", 927), true)
+, Tuple.Create(Tuple.Create(" ", 936), Tuple.Create("col-sm-4", 937), true)
+, Tuple.Create(Tuple.Create(" ", 945), Tuple.Create("col-md-3", 946), true)
 );
 
 WriteLiteral(">\r\n                    <div");
@@ -197,14 +193,14 @@ WriteLiteral("</p>\r\n                                <a");
 
 WriteLiteral(" class=\"preview\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1467), Tuple.Create("\"", 1505)
+WriteAttribute("href", Tuple.Create(" href=\"", 1446), Tuple.Create("\"", 1484)
             
             #line 31 "..\..\MVC\Views\Categories\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1474), Tuple.Create<System.Object, System.Int32>(portfolio.Portfolio_Photo_Path
+, Tuple.Create(Tuple.Create("", 1453), Tuple.Create<System.Object, System.Int32>(portfolio.Portfolio_Photo_Path
             
             #line default
             #line hidden
-, 1474), false)
+, 1453), false)
 );
 
 WriteLiteral(" rel=\"prettyPhoto\"");
@@ -225,7 +221,7 @@ WriteLiteral("<!--/.portfolio-item-->\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n    </div>\r\n");
+WriteLiteral("        </div>\r\n");
 
         }
     }

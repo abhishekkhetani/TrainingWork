@@ -217,7 +217,7 @@ Write(Html.CommentsList(@Model.Item.DataItem));
             
             #line default
             #line hidden
-WriteLiteral("\r\n</div>");
+WriteLiteral("\r\n</div>\r\n<h1>Blog Post</h1>");
 
         }
     }
