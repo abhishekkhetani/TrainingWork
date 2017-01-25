@@ -1490,9 +1490,10 @@
     <Content Include="Mvc\Views\Testimonial\Default.cshtml" />
     <Content Include="ResourcePackages\DemoTemplate\MVC\Views\BlogPost\Detail.DetailPage.cshtml" />
     <Content Include="ResourcePackages\DemoTemplate\MVC\Views\BlogPost\List.BlogPostList.cshtml" />
+    <Content Include="ResourcePackages\DemoTemplate\MVC\Views\SearchBox\SearchBox.cshtml" />
     <Content Include="ResourcePackages\DemoTemplate\MVC\Views\Comments\Comments.Default.cshtml" />
     <Content Include="ResourcePackages\DemoTemplate\MVC\Views\Comments\CommentsCount.Default.cshtml" />
-    <Content Include="ResourcePackages\DemoTemplate\MVC\Views\SearchBox\SearchBox.cshtml" />
+    <Content Include="ResourcePackages\DemoTemplate\MVC\Views\HierarchicalTaxonomy\HierarchicalTaxonomy.CategoriesList.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
