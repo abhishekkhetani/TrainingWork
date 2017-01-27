@@ -36,38 +36,20 @@ namespace ASP
         }
         public override void Execute()
         {
-WriteLiteral("\r\n\r\n<section");
-
-WriteLiteral(" id=\"recent-works\"");
-
-WriteLiteral(">\r\n    <div");
-
-WriteLiteral(" class=\"container\"");
-
-WriteLiteral(">\r\n        <div");
-
-WriteLiteral(" class=\"center wow fadeInDown\"");
-
-WriteLiteral(">\r\n            <h2>Recent Works</h2>\r\n            <p");
-
-WriteLiteral(" class=\"lead\"");
-
-WriteLiteral(">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor " +
-"incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>\r\n        " +
-"</div>\r\n        <div");
+WriteLiteral("\r\n\r\n\r\n        <div");
 
 WriteLiteral(" class=\"row\"");
 
 WriteLiteral(">\r\n");
 
             
-            #line 14 "..\..\MVC\Views\Recent\Default.cshtml"
+            #line 9 "..\..\MVC\Views\Recent\Default.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 14 "..\..\MVC\Views\Recent\Default.cshtml"
+            #line 9 "..\..\MVC\Views\Recent\Default.cshtml"
              foreach (SitefinityWebApp.Mvc.Models.RecentModel cate in Model)
             {
 
@@ -86,14 +68,14 @@ WriteLiteral(">\r\n                        <img");
 
 WriteLiteral(" class=\"img-responsive\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 721), Tuple.Create("\"", 753)
+WriteAttribute("src", Tuple.Create(" src=\"", 389), Tuple.Create("\"", 421)
             
-            #line 18 "..\..\MVC\Views\Recent\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 727), Tuple.Create<System.Object, System.Int32>(cate.Portfolio_Photo_Path
+            #line 13 "..\..\MVC\Views\Recent\Default.cshtml"
+, Tuple.Create(Tuple.Create("", 395), Tuple.Create<System.Object, System.Int32>(cate.Portfolio_Photo_Path
             
             #line default
             #line hidden
-, 727), false)
+, 395), false)
 );
 
 WriteLiteral(" alt=\"\"");
@@ -113,7 +95,7 @@ WriteLiteral(" href=\"#\"");
 WriteLiteral(">");
 
             
-            #line 21 "..\..\MVC\Views\Recent\Default.cshtml"
+            #line 16 "..\..\MVC\Views\Recent\Default.cshtml"
                                            Write(cate.Title);
 
             
@@ -122,7 +104,7 @@ WriteLiteral(">");
 WriteLiteral("</a> </h3>\r\n                                <p>");
 
             
-            #line 22 "..\..\MVC\Views\Recent\Default.cshtml"
+            #line 17 "..\..\MVC\Views\Recent\Default.cshtml"
                               Write(cate.Portfolio_Description);
 
             
@@ -132,14 +114,14 @@ WriteLiteral("</p>\r\n                                <a");
 
 WriteLiteral(" class=\"preview\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1061), Tuple.Create("\"", 1094)
+WriteAttribute("href", Tuple.Create(" href=\"", 729), Tuple.Create("\"", 762)
             
-            #line 23 "..\..\MVC\Views\Recent\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1068), Tuple.Create<System.Object, System.Int32>(cate.Portfolio_Photo_Path
+            #line 18 "..\..\MVC\Views\Recent\Default.cshtml"
+, Tuple.Create(Tuple.Create("", 736), Tuple.Create<System.Object, System.Int32>(cate.Portfolio_Photo_Path
             
             #line default
             #line hidden
-, 1068), false)
+, 736), false)
 );
 
 WriteLiteral(" rel=\"prettyPhoto\"");
@@ -152,14 +134,13 @@ WriteLiteral("></i> View</a>\r\n                            </div>\r\n          
 ">\r\n                    </div>\r\n                </div>\r\n");
 
             
-            #line 28 "..\..\MVC\Views\Recent\Default.cshtml"
+            #line 23 "..\..\MVC\Views\Recent\Default.cshtml"
             }
 
             
             #line default
             #line hidden
-WriteLiteral("        </div><!--/.row-->\r\n    </div><!--/.container-->\r\n</section><!--/#recent-" +
-"works-->");
+WriteLiteral("        </div><!--/.row-->");
 
         }
     }

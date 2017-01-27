@@ -118,36 +118,36 @@ WriteLiteralTo(__razor_helper_writer, "\r\n            </ul>\r\n        </li>\r\
 #line hidden
 WriteLiteralTo(__razor_helper_writer, "        <li");
 
-WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 1923), Tuple.Create("\"", 1946)
+WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 1919), Tuple.Create("\"", 1942)
 
 #line 53 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 1931), Tuple.Create<System.Object, System.Int32>(GetClass(node)
+, Tuple.Create(Tuple.Create("", 1927), Tuple.Create<System.Object, System.Int32>(GetClass(node)
 
 #line default
 #line hidden
-, 1931), false)
+, 1927), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, "><a");
 
-WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 1950), Tuple.Create("\"", 1966)
+WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 1946), Tuple.Create("\"", 1962)
 
 #line 53 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 1957), Tuple.Create<System.Object, System.Int32>(node.Url
+, Tuple.Create(Tuple.Create("", 1953), Tuple.Create<System.Object, System.Int32>(node.Url
 
 #line default
 #line hidden
-, 1957), false)
+, 1953), false)
 );
 
-WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 1967), Tuple.Create("\"", 1992)
+WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 1963), Tuple.Create("\"", 1988)
 
 #line 53 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 1976), Tuple.Create<System.Object, System.Int32>(node.LinkTarget
+, Tuple.Create(Tuple.Create("", 1972), Tuple.Create<System.Object, System.Int32>(node.LinkTarget
 
 #line default
 #line hidden
-, 1976), false)
+, 1972), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, ">");
@@ -198,24 +198,24 @@ WriteLiteralTo(__razor_helper_writer, " class=\"dropdown-submenu\"");
 
 WriteLiteralTo(__razor_helper_writer, ">\r\n                <a");
 
-WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 2315), Tuple.Create("\"", 2336)
+WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 2311), Tuple.Create("\"", 2332)
 
 #line 65 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 2322), Tuple.Create<System.Object, System.Int32>(childNode.Url
+, Tuple.Create(Tuple.Create("", 2318), Tuple.Create<System.Object, System.Int32>(childNode.Url
 
 #line default
 #line hidden
-, 2322), false)
+, 2318), false)
 );
 
-WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 2337), Tuple.Create("\"", 2367)
+WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 2333), Tuple.Create("\"", 2363)
 
 #line 65 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 2346), Tuple.Create<System.Object, System.Int32>(childNode.LinkTarget
+, Tuple.Create(Tuple.Create("", 2342), Tuple.Create<System.Object, System.Int32>(childNode.LinkTarget
 
 #line default
 #line hidden
-, 2346), false)
+, 2342), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, ">");
@@ -259,36 +259,36 @@ WriteLiteralTo(__razor_helper_writer, "\r\n                </ul>\r\n            
 #line hidden
 WriteLiteralTo(__razor_helper_writer, "            <li");
 
-WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 2659), Tuple.Create("\"", 2687)
+WriteAttributeTo(__razor_helper_writer, "class", Tuple.Create(" class=\"", 2655), Tuple.Create("\"", 2683)
 
 #line 75 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 2667), Tuple.Create<System.Object, System.Int32>(GetClass(childNode)
+, Tuple.Create(Tuple.Create("", 2663), Tuple.Create<System.Object, System.Int32>(GetClass(childNode)
 
 #line default
 #line hidden
-, 2667), false)
+, 2663), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, ">\r\n                <a");
 
-WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 2709), Tuple.Create("\"", 2730)
+WriteAttributeTo(__razor_helper_writer, "href", Tuple.Create(" href=\"", 2705), Tuple.Create("\"", 2726)
 
 #line 76 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 2716), Tuple.Create<System.Object, System.Int32>(childNode.Url
+, Tuple.Create(Tuple.Create("", 2712), Tuple.Create<System.Object, System.Int32>(childNode.Url
 
 #line default
 #line hidden
-, 2716), false)
+, 2712), false)
 );
 
-WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 2731), Tuple.Create("\"", 2761)
+WriteAttributeTo(__razor_helper_writer, "target", Tuple.Create(" target=\"", 2727), Tuple.Create("\"", 2757)
 
 #line 76 "..\..MVC\Views\Navigation\NavigationView.Horizontal_DEMO.cshtml"
-, Tuple.Create(Tuple.Create("", 2740), Tuple.Create<System.Object, System.Int32>(childNode.LinkTarget
+, Tuple.Create(Tuple.Create("", 2736), Tuple.Create<System.Object, System.Int32>(childNode.LinkTarget
 
 #line default
 #line hidden
-, 2740), false)
+, 2736), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, ">");
@@ -455,11 +455,11 @@ WriteLiteral("></span>\r\n            </button>\r\n            <a");
 
 WriteLiteral(" class=\"navbar-brand\"");
 
-WriteLiteral(" href=\"index.html\"");
+WriteLiteral(" href=\"/home\"");
 
 WriteLiteral("><img");
 
-WriteLiteral(" src=\"images/default-source/Project/logo.png?sfvrsn=2\"");
+WriteLiteral(" src=\"/images/default-source/Project/logo.png?sfvrsn=2\"");
 
 WriteLiteral(" alt=\"logo\"");
 

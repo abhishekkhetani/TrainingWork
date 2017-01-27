@@ -81,84 +81,84 @@ WriteAttribute("class", Tuple.Create(" class=\"", 289), Tuple.Create("\"", 312)
 , 297), false)
 );
 
-WriteLiteral(">\r\n    <ul");
+WriteLiteral(">\r\n    <div");
+
+WriteLiteral(" class=\"blog-block\"");
+
+WriteLiteral(">\r\n        <ul");
 
 WriteLiteral(" class=\"list-unstyled\"");
 
 WriteLiteral(">\r\n\r\n");
 
             
-            #line 13 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-        
+            #line 14 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            
             
             #line default
             #line hidden
             
-            #line 13 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-         foreach (var item in Model.Items)
-        {
-            var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+            #line 14 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+             foreach (var item in Model.Items)
+            {
+                var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
 
 
             
             #line default
             #line hidden
-WriteLiteral("            <li ");
+WriteLiteral("                <li ");
 
             
-            #line 17 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-           Write(Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id));
+            #line 18 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+               Write(Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id));
 
             
             #line default
             #line hidden
-WriteLiteral(">\r\n\r\n                <div");
+WriteLiteral(">\r\n\r\n                    <div");
 
 WriteLiteral(" class=\"blog-item\"");
 
-WriteLiteral(">\r\n                    <div");
+WriteLiteral(">\r\n                        <div");
 
 WriteLiteral(" class=\"row\"");
 
-WriteLiteral(">\r\n                        <div");
+WriteLiteral(">\r\n                            <div");
 
 WriteLiteral(" class=\"col-xs-12 col-sm-2 text-center\"");
 
-WriteLiteral(">\r\n                            <div");
+WriteLiteral(">\r\n                                <div");
 
 WriteLiteral(" class=\"entry-meta\"");
 
-WriteLiteral(">\r\n                                <span");
+WriteLiteral(">\r\n                                    <span");
 
 WriteLiteral(" id=\"publish_date\"");
 
 WriteLiteral(">");
 
             
-            #line 23 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                   Write(item.GetDateTime("PublicationDate", "dd MMM"));
+            #line 24 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                       Write(item.GetDateTime("PublicationDate", "dd MMM"));
 
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n                                <span><i");
+WriteLiteral("</span>\r\n                                    <span><i");
 
 WriteLiteral(" class=\"fa fa-user\"");
 
-WriteLiteral("></i> <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">");
+WriteLiteral("></i> <a>");
 
             
-            #line 24 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                                        Write(DataResolver.Resolve(item.DataItem, "Author", null));
+            #line 25 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                                   Write(DataResolver.Resolve(item.DataItem, "Author", null));
 
             
             #line default
             #line hidden
-WriteLiteral("</a></span>\r\n                                <span><i");
+WriteLiteral("</a></span>\r\n                                    <span><i");
 
 WriteLiteral(" class=\"fa fa-comment\"");
 
@@ -169,52 +169,56 @@ WriteLiteral(" href=\"blog-item.html#comments\"");
 WriteLiteral(">");
 
             
-            #line 25 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                                                                 Write(Html.CommentsCount((string)navigateUrl, item.DataItem));
+            #line 26 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                                                                     Write(Html.CommentsCount((string)navigateUrl, item.DataItem));
 
             
             #line default
             #line hidden
-WriteLiteral("</a></span>\r\n                                <span><i");
+WriteLiteral("</a></span>\r\n                                    <span><i");
 
 WriteLiteral(" class=\"fa fa-heart\"");
 
-WriteLiteral("></i><a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">56 Likes</a></span>\r\n                            </div>\r\n                       " +
-" </div>\r\n\r\n                        <div");
+WriteLiteral("></i><a>56 Likes</a></span>\r\n                                </div>\r\n            " +
+"                </div>\r\n\r\n                            <div");
 
 WriteLiteral(" class=\"col-xs-12 col-sm-10 blog-content\"");
 
-WriteLiteral(">\r\n\r\n                            <a");
+WriteLiteral(">\r\n\r\n                                <a");
 
-WriteLiteral(" href=\"#\"");
+WriteAttribute("href", Tuple.Create(" href=\"", 1645), Tuple.Create("\"", 1664)
+            
+            #line 33 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+, Tuple.Create(Tuple.Create("", 1652), Tuple.Create<System.Object, System.Int32>(navigateUrl
+            
+            #line default
+            #line hidden
+, 1652), false)
+);
 
 WriteLiteral("><img");
 
 WriteLiteral(" class=\"img-responsive img-blog\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1611), Tuple.Create("\"", 1651)
+WriteAttribute("src", Tuple.Create(" src=\"", 1702), Tuple.Create("\"", 1742)
             
-            #line 32 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-  , Tuple.Create(Tuple.Create("", 1617), Tuple.Create<System.Object, System.Int32>(item.Fields.Image.Fields.MediaUrl
+            #line 33 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                 , Tuple.Create(Tuple.Create("", 1708), Tuple.Create<System.Object, System.Int32>(item.Fields.Image.Fields.MediaUrl
             
             #line default
             #line hidden
-, 1617), false)
+, 1708), false)
 );
 
 WriteLiteral(" width=\"100%\"");
 
 WriteLiteral(" alt=\"\"");
 
-WriteLiteral(" /></a>\r\n\r\n                            <h2><a ");
+WriteLiteral(" /></a>\r\n\r\n                                <h2><a ");
 
             
-            #line 34 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                              Write(Html.InlineEditingFieldAttributes("Title", "ShortText"));
+            #line 35 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                  Write(Html.InlineEditingFieldAttributes("Title", "ShortText"));
 
             
             #line default
@@ -222,8 +226,8 @@ WriteLiteral(" /></a>\r\n\r\n                            <h2><a ");
 WriteLiteral(" href=\"");
 
             
-            #line 34 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                                                             Write(navigateUrl);
+            #line 35 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                                                                 Write(navigateUrl);
 
             
             #line default
@@ -231,17 +235,17 @@ WriteLiteral(" href=\"");
 WriteLiteral("\">");
 
             
-            #line 34 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                                                                           Write(item.Fields.Title);
+            #line 35 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                                                                               Write(item.Fields.Title);
 
             
             #line default
             #line hidden
-WriteLiteral("</a></h2>\r\n                            <h3 ");
+WriteLiteral("</a></h2>\r\n                                <h3 ");
 
             
-            #line 35 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                           Write(Html.InlineEditingFieldAttributes("Summary", "ShortText"));
+            #line 36 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                               Write(Html.InlineEditingFieldAttributes("Summary", "ShortText"));
 
             
             #line default
@@ -249,50 +253,54 @@ WriteLiteral("</a></h2>\r\n                            <h3 ");
 WriteLiteral(">");
 
             
-            #line 35 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-                                                                                      Write(Html.Raw(item.Fields.Summary));
+            #line 36 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+                                                                                          Write(Html.Raw(item.Fields.Summary));
 
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n                            <a");
+WriteLiteral("</h3>\r\n                                <a");
 
 WriteLiteral(" class=\"btn btn-primary readmore\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2015), Tuple.Create("\"", 2034)
+WriteAttribute("href", Tuple.Create(" href=\"", 2118), Tuple.Create("\"", 2137)
             
-            #line 36 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-, Tuple.Create(Tuple.Create("", 2022), Tuple.Create<System.Object, System.Int32>(navigateUrl
+            #line 37 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+, Tuple.Create(Tuple.Create("", 2125), Tuple.Create<System.Object, System.Int32>(navigateUrl
             
             #line default
             #line hidden
-, 2022), false)
+, 2125), false)
 );
 
 WriteLiteral(">Read More <i");
 
 WriteLiteral(" class=\"fa fa-angle-right\"");
 
-WriteLiteral("></i></a>\r\n\r\n                        </div>\r\n\r\n                    </div>\r\n      " +
-"          </div><!--/.blog-item-->\r\n            </li>\r\n");
+WriteLiteral("></i></a>\r\n\r\n                            </div>\r\n\r\n                        </div>" +
+"\r\n                    </div><!--/.blog-item-->\r\n                </li>\r\n");
 
             
-            #line 43 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-        }
+            #line 44 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            }
 
             
             #line default
             #line hidden
-WriteLiteral("    </ul>\r\n\r\n</div>\r\n<div>\r\n");
+WriteLiteral("        </ul>\r\n    </div>\r\n</div>\r\n<div");
+
+WriteLiteral(" class=\"pagination-block\"");
+
+WriteLiteral(">\r\n");
 
             
-            #line 48 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 49 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 48 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 49 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
      if (Model.CurrentPage != 1)
     {
 
@@ -305,14 +313,14 @@ WriteLiteral(" class=\"pagination pagination-lg\"");
 
 WriteLiteral(">\r\n            <li><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2355), Tuple.Create("\"", 2384)
+WriteAttribute("href", Tuple.Create(" href=\"", 2517), Tuple.Create("\"", 2546)
             
-            #line 51 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-, Tuple.Create(Tuple.Create("", 2362), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage-1
+            #line 52 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+, Tuple.Create(Tuple.Create("", 2524), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage-1
             
             #line default
             #line hidden
-, 2362), false)
+, 2524), false)
 );
 
 WriteLiteral("><i");
@@ -322,7 +330,7 @@ WriteLiteral(" class=\"fa fa-long-arrow-left\"");
 WriteLiteral("></i>Previous Page</a></li>\r\n        </ul>\r\n");
 
             
-            #line 53 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 54 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
     }
 
             
@@ -331,13 +339,13 @@ WriteLiteral("></i>Previous Page</a></li>\r\n        </ul>\r\n");
 WriteLiteral("\r\n");
 
             
-            #line 55 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 56 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
     
             
             #line default
             #line hidden
             
-            #line 55 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 56 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
      if (Model.ShowPager)
     {
         
@@ -345,7 +353,7 @@ WriteLiteral("\r\n");
             #line default
             #line hidden
             
-            #line 57 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 58 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
    Write(Html.Action("Index", "ContentPager", new
            {
                currentPage = Model.CurrentPage,
@@ -357,7 +365,7 @@ WriteLiteral("\r\n");
             #line default
             #line hidden
             
-            #line 62 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 63 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
              
     }
 
@@ -367,7 +375,7 @@ WriteLiteral("\r\n");
 WriteLiteral("    ");
 
             
-            #line 64 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 65 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
      if (Model.CurrentPage != Model.TotalPagesCount.Value)
     {
 
@@ -384,14 +392,14 @@ WriteLiteral(" class=\"next-page\"");
 
 WriteLiteral("><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2924), Tuple.Create("\"", 2953)
+WriteAttribute("href", Tuple.Create(" href=\"", 3086), Tuple.Create("\"", 3115)
             
-            #line 67 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
-, Tuple.Create(Tuple.Create("", 2931), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage+1
+            #line 68 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+, Tuple.Create(Tuple.Create("", 3093), Tuple.Create<System.Object, System.Int32>(Model.CurrentPage+1
             
             #line default
             #line hidden
-, 2931), false)
+, 3093), false)
 );
 
 WriteLiteral(">Next Page<i");
@@ -401,7 +409,7 @@ WriteLiteral(" class=\'fa fa-long-arrow-right\'");
 WriteLiteral("></i></a></li>\r\n        </ul>\r\n");
 
             
-            #line 69 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 70 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
     }
 
             
@@ -415,7 +423,7 @@ WriteLiteral(">\r\n    var path = window.location.pathname;\r\n    if (path == \
 "   var next_Page = (");
 
             
-            #line 77 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 78 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
                     Write(Model.CurrentPage);
 
             
@@ -425,14 +433,16 @@ WriteLiteral("+1);\r\n        $(\".next-page a\").attr(\"href\", path + next_Pag
 "ath == \'/blog\') {\r\n\r\n        var next_Page = (");
 
             
-            #line 82 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
+            #line 83 "..\..MVC\Views\BlogPost\List.BlogPostList.cshtml"
                     Write(Model.CurrentPage);
 
             
             #line default
             #line hidden
-WriteLiteral("+1);\r\n        $(\".next-page a\").attr(\"href\", path + \'/\' + next_Page);\r\n    }\r\n</s" +
-"cript>");
+WriteLiteral("+1);\r\n        $(\".next-page a\").attr(\"href\", path + \'/\' + next_Page);\r\n    }\r\n\r\n " +
+"   var numItems = $(\'.blog-block\').length;\r\n\r\n    if (numItems == 2) {\r\n        " +
+"$(\'.blog-block:last\').fadeOut();\r\n        $(\'.pagination-block\').fadeOut();\r\n   " +
+" }\r\n</script>");
 
         }
     }

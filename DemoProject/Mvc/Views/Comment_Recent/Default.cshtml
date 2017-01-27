@@ -1,0 +1,15 @@
+@model List<SitefinityWebApp.Mvc.Models.Comment_RecentModel>
+
+<div class="col-sm-12">
+  
+    @foreach(var comment in Model)
+    {
+        <div class="single_comments">
+            <img src="@comment.Image" alt="" />
+            <p>@comment.Title</p>
+            <div class="entry-meta small muted">
+                <span>By <a href="#">@comment.Author</a></span><span>On <a href="#">@comment.Category</a></span>
+            </div>
+        </div>
+    }
+</div>

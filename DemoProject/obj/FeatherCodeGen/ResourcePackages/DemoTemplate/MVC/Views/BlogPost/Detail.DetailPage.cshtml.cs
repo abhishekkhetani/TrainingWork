@@ -126,20 +126,16 @@ WriteLiteral("</span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-user\"");
 
-WriteLiteral("></i> <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral("> ");
+WriteLiteral("></i><a>");
 
             
             #line 15 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
-                                                             Write(DataResolver.Resolve(@Model.Item.DataItem, "Author", null));
+                                                  Write(DataResolver.Resolve(@Model.Item.DataItem, "Author", null));
 
             
             #line default
             #line hidden
-WriteLiteral("</a></span>\r\n                    <span><i");
+WriteLiteral("</a>  </span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-comment\"");
 
@@ -160,12 +156,8 @@ WriteLiteral("</a></span>\r\n                    <span><i");
 
 WriteLiteral(" class=\"fa fa-heart\"");
 
-WriteLiteral("></i><a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">56 Likes</a></span>\r\n                </div>\r\n            </div>\r\n            <di" +
-"v");
+WriteLiteral("></i><a>56 Likes</a></span>\r\n                </div>\r\n            </div>\r\n        " +
+"    <div");
 
 WriteLiteral(" class=\"col-xs-12 col-sm-10 blog-content\"");
 
@@ -211,86 +203,95 @@ WriteLiteral("</p>\r\n\r\n                <div");
 
 WriteLiteral(" class=\"post-tags\"");
 
-WriteLiteral(">\r\n                    <strong>Tag:</strong> <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">Cool</a> / <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">Creative</a> / <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral(">Dubttstep</a>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n   " +
-" </div><!--/.blog-item-->\r\n\r\n    <div");
-
-WriteLiteral(" class=\"media reply_section\"");
-
-WriteLiteral(">\r\n        <div");
-
-WriteLiteral(" class=\"pull-left post_reply text-center\"");
-
-WriteLiteral(">\r\n            <a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral("><img");
-
-WriteLiteral(" src=\"/images/default-source/Project/blog/boy.png\"");
-
-WriteLiteral(" class=\"img-circle\"");
-
-WriteLiteral(" alt=\"\"");
-
-WriteLiteral(" /></a>\r\n            <ul>\r\n                <li><a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral("><i");
-
-WriteLiteral(" class=\"fa fa-facebook\"");
-
-WriteLiteral("></i></a></li>\r\n                <li><a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral("><i");
-
-WriteLiteral(" class=\"fa fa-twitter\"");
-
-WriteLiteral("></i></a></li>\r\n                <li><a");
-
-WriteLiteral(" href=\"#\"");
-
-WriteLiteral("><i");
-
-WriteLiteral(" class=\"fa fa-google-plus\"");
-
-WriteLiteral("></i> </a></li>\r\n            </ul>\r\n        </div>\r\n        <div");
-
-WriteLiteral(" class=\"media-body post_reply_content\"");
-
-WriteLiteral(">\r\n            <h3>Antone L. Huges</h3>\r\n            <p");
-
-WriteLiteral(" class=\"lead\"");
-
-WriteLiteral(@">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturp</p>
-            <p><strong>Web:</strong> <a");
-
-WriteLiteral(" href=\"http://www.shapebootstrap.net\"");
-
-WriteLiteral(">www.shapebootstrap.net</a></p>\r\n        </div>\r\n    </div>\r\n \r\n     <div>\r\n");
+WriteLiteral(">\r\n                    <strong>Tag:</strong>\r\n");
 
             
-            #line 51 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+            #line 28 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                    
+            
+            #line default
+            #line hidden
+            
+            #line 28 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                      var tagCount = 0;
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n");
+
+            
+            #line 29 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                    
+            
+            #line default
+            #line hidden
+            
+            #line 29 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                     foreach (var tag in Model.Item.GetFlatTaxons("Tags"))
+                    {
+                        { tagCount++; }
+                        //var tagDetails = tag.FlatTaxonomy.Taxa.Select(z => z.UrlName).SingleOrDefault();
+
+            
+            #line default
+            #line hidden
+WriteLiteral("                        <a");
+
+WriteAttribute("href", Tuple.Create(" href=\"", 1936), Tuple.Create("\"", 1973)
+, Tuple.Create(Tuple.Create("", 1943), Tuple.Create("/blog/-in-tags/tags/", 1943), true)
+            
+            #line 33 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+, Tuple.Create(Tuple.Create("", 1963), Tuple.Create<System.Object, System.Int32>(tag.Title
+            
+            #line default
+            #line hidden
+, 1963), false)
+);
+
+WriteLiteral(">");
+
+            
+            #line 33 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                                                            Write(tag.Title);
+
+            
+            #line default
+            #line hidden
+WriteLiteral(" </a>\r\n");
+
+            
+            #line 34 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                        if (tagCount != Model.Item.GetFlatTaxons("Tags").Count())
+                        {
+
+            
+            #line default
+            #line hidden
+WriteLiteral("                            ");
+
+WriteLiteral("/\r\n");
+
+            
+            #line 37 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+                         }
+                    }
+
+            
+            #line default
+            #line hidden
+WriteLiteral("                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div><!--/.blo" +
+"g-item-->\r\n\r\n    ");
+
+WriteLiteral("\r\n\r\n    <div>\r\n");
+
+            
+            #line 62 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
         
             
             #line default
             #line hidden
             
-            #line 51 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+            #line 62 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
           
             if (Model.EnableSocialSharing)
             {
@@ -300,28 +301,28 @@ WriteLiteral(">www.shapebootstrap.net</a></p>\r\n        </div>\r\n    </div>\r\
             #line default
             #line hidden
             
-            #line 55 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+            #line 66 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
            Write(Html.SocialShareOptions(item));
 
             
             #line default
             #line hidden
             
-            #line 55 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+            #line 66 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
                                               ;
             }
         
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n         ");
+WriteLiteral("\r\n\r\n        ");
 
-WriteLiteral("\r\n        \r\n\r\n");
+WriteLiteral("\r\n\r\n\r\n");
 
 WriteLiteral("        ");
 
             
-            #line 62 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
+            #line 73 "..\..MVC\Views\BlogPost\Detail.DetailPage.cshtml"
    Write(Html.CommentsList(@Model.Item.DataItem));
 
             

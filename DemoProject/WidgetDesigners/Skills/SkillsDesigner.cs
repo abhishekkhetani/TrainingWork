@@ -52,15 +52,89 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
 
         #region Control references
         /// <summary>
-        /// Gets the control that is bound to the Message property
+        /// Gets the control that is bound to the TxtSkill_1 property
         /// </summary>
-        protected virtual Control Message
+        protected virtual Control TxtSkill_1
         {
             get
             {
-                return this.Container.GetControl<Control>("Message", true);
+                return this.Container.GetControl<Control>("TxtSkill_1", true);
             }
         }
+        /// <summary>
+        /// Gets the control that is bound to the TxtPer_1 property
+        /// </summary>
+        protected virtual Control TxtPer_1
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtPer_1", true);
+            }
+        }
+
+        /// <summary>
+        /// Gets the control that is bound to the TxtSkill_2 property
+        /// </summary>
+        protected virtual Control TxtSkill_2
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtSkill_2", true);
+            }
+        }
+        /// <summary>
+        /// Gets the control that is bound to the TxtPer_2 property
+        /// </summary>
+        protected virtual Control TxtPer_2
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtPer_2", true);
+            }
+        }
+
+        /// <summary>
+        /// Gets the control that is bound to the TxtSkill_3 property
+        /// </summary>
+        protected virtual Control TxtSkill_3
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtSkill_3", true);
+            }
+        }
+        /// <summary>
+        /// Gets the control that is bound to the TxtPer_3 property
+        /// </summary>
+        protected virtual Control TxtPer_3
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtPer_3", true);
+            }
+        }
+
+        /// <summary>
+        /// Gets the control that is bound to the TxtSkill_4 property
+        /// </summary>
+        protected virtual Control TxtSkill_4
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtSkill_4", true);
+            }
+        }
+        /// <summary>
+        /// Gets the control that is bound to the TxtPer_4 property
+        /// </summary>
+        protected virtual Control TxtPer_4
+        {
+            get
+            {
+                return this.Container.GetControl<Control>("TxtPer_4", true);
+            }
+        }
+
 
         #endregion
 
@@ -80,7 +154,7 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
             var scriptDescriptors = new List<ScriptDescriptor>(base.GetScriptDescriptors());
             var descriptor = (ScriptControlDescriptor)scriptDescriptors.Last();
 
-            descriptor.AddElementProperty("message", this.Message.ClientID);
+            descriptor.AddElementProperty("message", this.TxtSkill_1.ClientID);
 
             return scriptDescriptors;
         }
