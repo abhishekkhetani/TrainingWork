@@ -7,3 +7,4 @@ D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.dll
 D:\Software\Sitefinity 9.2\Projects\DemoProject\bin\SitefinityWebApp.pdb
 D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.dll
 D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.pdb
+D:\Software\Sitefinity 9.2\Projects\DemoProject\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache

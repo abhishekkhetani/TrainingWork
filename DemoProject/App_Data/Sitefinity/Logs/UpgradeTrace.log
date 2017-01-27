@@ -1,51 +1,112 @@
 ----------------------------------------
-Timestamp: 1/24/2017 8:38:44 AM
+Timestamp: 1/27/2017 8:35:00 AM
 
-Message: Db Migration Complexity: Trivial
+Message: Db Migration Complexity: Complex
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/24/2017 8:38:44 AM
+Timestamp: 1/27/2017 8:35:00 AM
 
 Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/24/2017 8:38:44 AM
+Timestamp: 1/27/2017 8:35:00 AM
 
 Message: Adding a new table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/24/2017 8:38:44 AM
+Timestamp: 1/27/2017 8:35:00 AM
 
-Message: -- Telerik.Sitefinity.Publishing.Model.Dynamic_af7c9d42579867978b2aff00001bc13f
-CREATE TABLE [dynmc_f7c9d42579867978b2ff0000] (
+Message: Modifying a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:35:01 AM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.sf_contact
+CREATE TABLE [sf_contact] (
     [id] uniqueidentifier NOT NULL,
-    [username] NVARCHAR(255) NULL,          -- Dynamic_af7c9d42579867978b2aff00001bc13f.Username
-    [title] NVARCHAR(255) NULL,             -- Dynamic_af7c9d42579867978b2aff00001bc13f.Title
-    [summary] NVARCHAR(255) NULL,           -- Dynamic_af7c9d42579867978b2aff00001bc13f.Summary
-    [publication_date] DATETIME NULL,       -- Dynamic_af7c9d42579867978b2aff00001bc13f.PublicationDate
-    [owner_last_name] NVARCHAR(255) NULL,   -- Dynamic_af7c9d42579867978b2aff00001bc13f.OwnerLastName
-    [owner_first_name] NVARCHAR(255) NULL,  -- Dynamic_af7c9d42579867978b2aff00001bc13f.OwnerFirstName
-    [owner_email] NVARCHAR(255) NULL,       -- Dynamic_af7c9d42579867978b2aff00001bc13f.OwnerEmail
-    [lnk] NVARCHAR(255) NULL,               -- Dynamic_af7c9d42579867978b2aff00001bc13f.Link
-    [item_hash] NVARCHAR(255) NULL,         -- Dynamic_af7c9d42579867978b2aff00001bc13f.ItemHash
-    [expiration_date] DATETIME NULL,        -- Dynamic_af7c9d42579867978b2aff00001bc13f.ExpirationDate
-    [content] NVARCHAR(MAX) NULL,           -- Dynamic_af7c9d42579867978b2aff00001bc13f.Content
-    [categories] NVARCHAR(255) NULL,        -- Dynamic_af7c9d42579867978b2aff00001bc13f.Categories
-    CONSTRAINT [pk_dynmc_f7c9d4257986_30E81D8F] PRIMARY KEY ([id])
+    [text_field_controller_0] NVARCHAR(255) NULL, -- sf_contact.TextFieldController_0
+    [text_field_controller] NVARCHAR(255) NULL, -- sf_contact.TextFieldController
+    CONSTRAINT [pk_sf_contact] PRIMARY KEY ([id])
 )
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/24/2017 8:38:44 AM
+Timestamp: 1/27/2017 8:35:01 AM
 
-Message: ALTER TABLE [dynmc_f7c9d42579867978b2ff0000] ADD CONSTRAINT [ref_dynmc_f7c9d425798_D5460EFC] FOREIGN KEY ([id]) REFERENCES [sf_dynamic_type_base]([id]) ON DELETE CASCADE
+Message: -- Column was read from database as: [voa_class] int null
+-- modify column for field <internal-class-id>
+UPDATE [sf_form_entry]
+   SET [voa_class] = 0 -- Add your own default value here, for when [voa_class] is null.
+ WHERE [voa_class] IS NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:35:01 AM
+
+Message: ALTER TABLE [sf_form_entry] ALTER COLUMN [voa_class] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:35:01 AM
+
+Message: ALTER TABLE [sf_contact] ADD CONSTRAINT [ref_sf_contact_sf_form_entry] FOREIGN KEY ([id]) REFERENCES [sf_form_entry]([id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: -- add column for field sf_contact.TextFieldController_3
+ALTER TABLE [sf_contact] ADD [text_field_controller_3] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: -- add column for field sf_contact.TextFieldController_2
+ALTER TABLE [sf_contact] ADD [text_field_controller_2] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: -- add column for field sf_contact.TextFieldController_1
+ALTER TABLE [sf_contact] ADD [text_field_controller_1] NVARCHAR(255) NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2017 8:51:56 AM
+
+Message: -- add column for field sf_contact.ParagraphTextFieldController
+ALTER TABLE [sf_contact] ADD [pragraph_text_field_controller] NVARCHAR(MAX) NULL
 
 
 ----------------------------------------

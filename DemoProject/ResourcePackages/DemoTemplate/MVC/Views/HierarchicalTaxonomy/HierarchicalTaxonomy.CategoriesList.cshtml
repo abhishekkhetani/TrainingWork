@@ -1,0 +1,20 @@
+﻿@model Telerik.Sitefinity.Frontend.Taxonomies.Mvc.Models.TaxonomyViewModel
+
+<ul class="blog_category @Model.CssClass list-unstyled">
+    @foreach (var taxon in Model.Taxa)
+    {
+        <li>
+            <a href="@taxon.Url">
+                @taxon.Title
+
+            @if (Model.ShowItemCount)
+            {
+
+                <span class="badge">@Html.Raw(string.Format("{0}", taxon.Count))</span>
+
+            }
+        </a>
+    </li>
+
+    }
+</ul>

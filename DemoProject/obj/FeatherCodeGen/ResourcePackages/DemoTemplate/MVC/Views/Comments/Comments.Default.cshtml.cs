@@ -131,56 +131,9 @@ WriteLiteral("></span>\r\n                <span");
 
 WriteLiteral(" data-sf-role=\"comments-header\"");
 
-WriteLiteral("></span>\r\n            </h2>\r\n\r\n");
+WriteLiteral("></span>\r\n            </h2>\r\n\r\n            ");
 
-            
-            #line 19 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-            
-            
-            #line default
-            #line hidden
-            
-            #line 19 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-             if (!Model.ThreadIsClosed)
-            {
-
-            
-            #line default
-            #line hidden
-WriteLiteral("                <a");
-
-WriteAttribute("href", Tuple.Create(" href=\"", 876), Tuple.Create("\"", 962)
-, Tuple.Create(Tuple.Create("", 883), Tuple.Create("#comment-submit-", 883), true)
-            
-            #line 21 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 899), Tuple.Create<System.Object, System.Int32>(HttpUtility.HtmlEncode(HttpUtility.UrlEncode(Model.ThreadKey))
-            
-            #line default
-            #line hidden
-, 899), false)
-);
-
-WriteLiteral(" data-sf-role=\"comments-new-form-button\"");
-
-WriteLiteral(">");
-
-            
-            #line 21 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                                                                                             Write(Html.Resource("LeaveComment"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("</a>\r\n");
-
-            
-            #line 22 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-            }
-
-            
-            #line default
-            #line hidden
-WriteLiteral("        </div>\r\n\r\n        <div");
+WriteLiteral("\r\n        </div>\r\n\r\n        <div");
 
 WriteLiteral(" class=\"col-md-5 clearfix\"");
 
@@ -188,7 +141,7 @@ WriteLiteral(">\r\n            <div");
 
 WriteLiteral(" class=\"pull-right\"");
 
-WriteLiteral(">\r\n                 <a");
+WriteLiteral(">\r\n                <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -198,12 +151,12 @@ WriteLiteral(">");
 
             
             #line 27 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                Write(Html.Resource("NewestOnTop"));
+                                                               Write(Html.Resource("NewestOnTop"));
 
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n                 <a");
+WriteLiteral("</a>\r\n                <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -213,12 +166,12 @@ WriteLiteral(">");
 
             
             #line 28 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                Write(Html.Resource("OldestOnTop"));
+                                                               Write(Html.Resource("OldestOnTop"));
 
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n          \r\n    <div");
+WriteLiteral("</a>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div");
 
 WriteLiteral(" data-sf-role=\"list-loading-indicator\"");
 
@@ -242,7 +195,7 @@ WriteLiteral("></div>\r\n\r\n");
             #line hidden
             
             #line 38 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-     if(Model.EnablePaging)
+     if (Model.EnablePaging)
     {
 
             
@@ -308,48 +261,65 @@ WriteLiteral("</div>\r\n");
             
             #line 46 "..\..MVC\Views\Comments\Comments.Default.cshtml"
     }
-    else 
-    {   
+    else
+    {
+
 
             
             #line default
             #line hidden
 WriteLiteral("        <div");
 
+WriteLiteral(" id=\"contact-page clearfix\"");
+
+WriteLiteral(">\r\n            <div");
+
+WriteLiteral(" class=\"status alert alert-success\"");
+
+WriteLiteral(" style=\"display: none\"");
+
+WriteLiteral("></div>\r\n            <div");
+
+WriteLiteral(" class=\"message_heading\"");
+
+WriteLiteral(">\r\n                <h4>Leave a Reply</h4>\r\n                <p>Make sure you enter" +
+" the(*)required information where indicate.HTML code is not allowed</p>\r\n       " +
+"     </div>\r\n\r\n            <div");
+
 WriteLiteral(" class=\"sf-Comments-form\"");
 
-WriteLiteral(">    \r\n            <div");
+WriteLiteral(">\r\n                <div");
 
 WriteLiteral(" data-sf-role=\"comments-new-form\"");
 
-WriteAttribute("id", Tuple.Create(" id=\"", 2022), Tuple.Create("\"", 2082)
-, Tuple.Create(Tuple.Create("", 2027), Tuple.Create("comment-submit-", 2027), true)
+WriteAttribute("id", Tuple.Create(" id=\"", 2369), Tuple.Create("\"", 2429)
+, Tuple.Create(Tuple.Create("", 2374), Tuple.Create("comment-submit-", 2374), true)
             
-            #line 50 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2042), Tuple.Create<System.Object, System.Int32>(HttpUtility.HtmlEncode(Model.ThreadKey)
+            #line 58 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+, Tuple.Create(Tuple.Create("", 2389), Tuple.Create<System.Object, System.Int32>(HttpUtility.HtmlEncode(Model.ThreadKey)
             
             #line default
             #line hidden
-, 2042), false)
+, 2389), false)
 );
 
-WriteLiteral(" >\r\n");
+WriteLiteral(">\r\n");
 
             
-            #line 51 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                
+            #line 59 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                    
             
             #line default
             #line hidden
             
-            #line 51 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                 if (Model.RequiresApproval)
-                {
+            #line 59 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                     if (Model.RequiresApproval)
+                    {
 
             
             #line default
             #line hidden
-WriteLiteral("                    <div");
+WriteLiteral("                        <div");
 
 WriteLiteral(" class=\"alert alert-warning\"");
 
@@ -358,8 +328,8 @@ WriteLiteral(" data-sf-role=\"comments-new-pending-approval-message\"");
 WriteLiteral(">");
 
             
-            #line 53 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                                                     Write(Html.Resource("CommentPendingApproval"));
+            #line 61 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                                                                                                         Write(Html.Resource("CommentPendingApproval"));
 
             
             #line default
@@ -367,224 +337,184 @@ WriteLiteral(">");
 WriteLiteral("</div>\r\n");
 
             
-            #line 54 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                }
+            #line 62 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                    }
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n                <div");
+WriteLiteral("\r\n                    <div");
 
 WriteLiteral(" class=\"media sf-media\"");
 
-WriteLiteral(">\r\n\r\n\r\n\r\n                    <div");
-
-WriteLiteral(" class=\"media-left sf-img-thmb\"");
-
-WriteLiteral(">\r\n                        <img");
-
-WriteAttribute("src", Tuple.Create(" src=\"", 2465), Tuple.Create("\"", 2496)
-            
-            #line 61 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2471), Tuple.Create<System.Object, System.Int32>(Model.UserAvatarImageUrl
-            
-            #line default
-            #line hidden
-, 2471), false)
-);
-
-WriteLiteral(" width=\"40\"");
-
-WriteLiteral(" height=\"40\"");
-
-WriteLiteral("/>\r\n                    </div>\r\n\r\n                    <div");
+WriteLiteral(">\r\n\r\n                        <div");
 
 WriteLiteral(" class=\"media-body sf-media-body\"");
 
-WriteLiteral(">\r\n\r\n                        <div");
+WriteLiteral(">\r\n\r\n                            <div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\r\n                            <label");
+WriteLiteral(">\r\n                                <div");
 
-WriteLiteral(" class=\"sr-only\"");
+WriteLiteral(" class=\"row\"");
 
-WriteLiteral(">");
+WriteLiteral(">\r\n                                    <div");
 
-            
-            #line 67 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                              Write(Html.Resource("LeaveComment"));
+WriteLiteral(" class=\"col-sm-7\"");
 
-            
-            #line default
-            #line hidden
-WriteLiteral("</label>\r\n                            <textarea");
+WriteLiteral(">\r\n                                        <div");
+
+WriteLiteral(" class=\"form-group\"");
+
+WriteLiteral(">\r\n                                            <label>Message *</label>\r\n        " +
+"                                    <textarea");
 
 WriteLiteral(" class=\"form-control\"");
 
 WriteLiteral(" data-sf-role=\"comments-new-message\"");
 
-WriteAttribute("placeholder", Tuple.Create(" placeholder=\"", 2851), Tuple.Create("\"", 2895)
-            
-            #line 68 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                            , Tuple.Create(Tuple.Create("", 2865), Tuple.Create<System.Object, System.Int32>(Html.Resource("LeaveComment")
-            
-            #line default
-            #line hidden
-, 2865), false)
-);
+WriteLiteral(" rows=\"8\"");
 
-WriteLiteral(" ></textarea>\r\n                        </div>\r\n\r\n                        <div");
+WriteLiteral(" name=\"message\"");
+
+WriteLiteral("></textarea>\r\n                                        </div>\r\n                   " +
+"                     <div");
+
+WriteLiteral(" class=\"form-group\"");
+
+WriteLiteral(">\r\n                                            <button");
+
+WriteLiteral(" type=\"submit\"");
+
+WriteLiteral(" data-sf-role=\"comments-new-submit-button\"");
+
+WriteLiteral(" class=\"btn btn-primary btn-lg\"");
+
+WriteLiteral(">Submit Message</button>\r\n                                        </div>\r\n       " +
+"                             </div>\r\n                                    <div");
 
 WriteLiteral(" data-sf-role=\"comments-new-logged-out-view\"");
 
-WriteLiteral(" class=\"row\"");
-
 WriteLiteral(" style=\"display:none;\"");
 
-WriteLiteral(">\r\n                            <div");
+WriteLiteral(">\r\n                                        <div");
 
-WriteLiteral(" class=\"col-md-8\"");
+WriteLiteral(" class=\"col-sm-5\"");
 
-WriteLiteral(">\r\n\r\n                                <div");
+WriteLiteral(">\r\n                                            <div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\r\n                                    <label");
+WriteLiteral(">\r\n                                                <label>Name *</label>\r\n       " +
+"                                         <input");
 
-WriteLiteral(" class=\"sr-only\"");
+WriteLiteral(" type=\"text\"");
 
-WriteLiteral(">");
-
-            
-            #line 75 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                      Write(Html.Resource("YourName"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("</label>\r\n                                    <input");
-
-WriteAttribute("placeholder", Tuple.Create(" placeholder=\"", 3303), Tuple.Create("\"", 3343)
-            
-            #line 76 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 3317), Tuple.Create<System.Object, System.Int32>(Html.Resource("YourName")
-            
-            #line default
-            #line hidden
-, 3317), false)
-);
+WriteLiteral(" class=\"form-control\"");
 
 WriteLiteral(" data-sf-role=\"comments-new-name\"");
 
-WriteLiteral(" class=\"form-control\"");
-
-WriteLiteral(" />\r\n                                </div>\r\n\r\n                                <d" +
-"iv");
+WriteLiteral(">\r\n                                            </div>\r\n                          " +
+"                  <div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\r\n                                    <label");
+WriteLiteral(">\r\n                                                <label>Email</label>\r\n        " +
+"                                        <input");
+
+WriteLiteral(" type=\"email\"");
+
+WriteLiteral(" class=\"form-control\"");
+
+WriteLiteral(" data-sf-role=\"comments-new-email\"");
+
+WriteLiteral(">\r\n                                            </div>\r\n                          " +
+"              </div>\r\n                                    </div>\r\n\r\n            " +
+"                    </div>\r\n\r\n                                <label");
 
 WriteLiteral(" class=\"sr-only\"");
 
 WriteLiteral(">");
 
             
-            #line 80 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                      Write(Html.Resource("EmailOptional"));
+            #line 94 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                                                  Write(Html.Resource("LeaveComment"));
 
             
             #line default
             #line hidden
-WriteLiteral("</label>\r\n                                    <input");
+WriteLiteral("</label>\r\n\r\n                            </div>\r\n\r\n                            ");
 
-WriteLiteral(" type=\"email\"");
-
-WriteAttribute("placeholder", Tuple.Create(" placeholder=\"", 3658), Tuple.Create("\"", 3703)
-            
-            #line 81 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 3672), Tuple.Create<System.Object, System.Int32>(Html.Resource("EmailOptional")
-            
-            #line default
-            #line hidden
-, 3672), false)
-);
-
-WriteLiteral(" data-sf-role=\"comments-new-email\"");
-
-WriteLiteral(" class=\"form-control\"");
-
-WriteLiteral(" /> \r\n                                </div>\r\n\r\n                           </div>" +
-"  \r\n                        </div>\r\n            \r\n");
+WriteLiteral("\r\n\r\n");
 
             
-            #line 87 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                        
+            #line 114 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                            
             
             #line default
             #line hidden
             
-            #line 87 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                         if (Model.RequiresCaptcha)
-                        {
+            #line 114 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                             if (Model.RequiresCaptcha)
+                            {
 
             
             #line default
             #line hidden
-WriteLiteral("                            <div");
+WriteLiteral("                                <div");
 
 WriteLiteral(" data-sf-role=\"captcha-container\"");
 
 WriteLiteral(" class=\"sf-Comments-captcha\"");
 
-WriteLiteral(">\r\n                                <div>\r\n                                    <im" +
-"g");
+WriteLiteral(">\r\n                                    <div>\r\n                                   " +
+"     <img");
 
 WriteLiteral(" data-sf-role=\"captcha-image\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 4174), Tuple.Create("\"", 4227)
+WriteAttribute("src", Tuple.Create(" src=\"", 5923), Tuple.Create("\"", 5976)
             
-            #line 91 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 4180), Tuple.Create<System.Object, System.Int32>(Url.WidgetContent("assets/dist/img/dummy.jpg")
+            #line 118 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+, Tuple.Create(Tuple.Create("", 5929), Tuple.Create<System.Object, System.Int32>(Url.WidgetContent("assets/dist/img/dummy.jpg")
             
             #line default
             #line hidden
-, 4180), false)
+, 5929), false)
 );
 
-WriteLiteral(" />\r\n                                </div>\r\n\r\n                                <a" +
-"");
+WriteLiteral(" />\r\n                                    </div>\r\n\r\n                              " +
+"      <a");
 
 WriteLiteral(" data-sf-role=\"captcha-refresh-button\"");
 
 WriteLiteral("> ");
 
             
-            #line 94 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                     Write(Html.Resource("NewCode"));
+            #line 121 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                                                                         Write(Html.Resource("NewCode"));
 
             
             #line default
             #line hidden
-WriteLiteral(" </a>\r\n\r\n                                <div");
+WriteLiteral(" </a>\r\n\r\n                                    <div");
 
 WriteLiteral(" class=\"form-inline\"");
 
-WriteLiteral(">\r\n                                    <div");
+WriteLiteral(">\r\n                                        <div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\r\n                                        <label>");
+WriteLiteral(">\r\n                                            <label>");
 
             
-            #line 98 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                          Write(Html.Resource("TypeCodeAbove"));
+            #line 125 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                                              Write(Html.Resource("TypeCodeAbove"));
 
             
             #line default
             #line hidden
-WriteLiteral("</label>\r\n                                        <input");
+WriteLiteral("</label>\r\n                                            <input");
 
 WriteLiteral(" type=\"text\"");
 
@@ -592,42 +522,27 @@ WriteLiteral(" data-sf-role=\"captcha-input\"");
 
 WriteLiteral(" class=\"form-control input-sm\"");
 
-WriteLiteral("/>\r\n                                    </div>\r\n                                <" +
-"/div>\r\n\r\n                            </div>\r\n");
+WriteLiteral(" />\r\n                                        </div>\r\n                            " +
+"        </div>\r\n\r\n                                </div>\r\n");
 
             
-            #line 104 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                        }
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n\r\n                        <div>\r\n                            <button");
-
-WriteLiteral(" class=\"btn btn-primary\"");
-
-WriteLiteral(" data-sf-role=\"comments-new-submit-button\"");
-
-WriteLiteral(">");
-
-            
-            #line 108 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                                                                                                 Write(Html.Resource("Submit"));
+            #line 131 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                            }
 
             
             #line default
             #line hidden
-WriteLiteral("</button>\r\n                        </div>\r\n\r\n                    </div>\r\n\r\n      " +
-"          </div>\r\n\r\n            </div>\r\n\r\n");
+WriteLiteral("                            <!--submit here-->\r\n                        </div>\r\n\r" +
+"\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n");
 
             
-            #line 117 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 139 "..\..MVC\Views\Comments\Comments.Default.cshtml"
             
             
             #line default
             #line hidden
             
-            #line 117 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 139 "..\..MVC\Views\Comments\Comments.Default.cshtml"
              if (Model.AllowSubscription)
             {
 
@@ -648,7 +563,7 @@ WriteLiteral(" href=\"#\"");
 
 WriteLiteral(" data-sf-role=\"comments-subscribe-button\"");
 
-WriteLiteral(">\r\n                            <span");
+WriteLiteral(">\r\n                        <span");
 
 WriteLiteral(" class=\"sf-icon-email\"");
 
@@ -659,7 +574,7 @@ WriteLiteral(" data-sf-role=\"comments-subscribe-button-text\"");
 WriteLiteral("></span>\r\n                    </a>\r\n                </div>\r\n");
 
             
-            #line 126 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 148 "..\..MVC\Views\Comments\Comments.Default.cshtml"
             }
 
             
@@ -675,7 +590,7 @@ WriteLiteral(">\r\n                <span");
 
 WriteLiteral(" class=\"help-block\"");
 
-WriteLiteral("></span>\r\n            </div>\r\n\t\t\t\t\t\r\n            <div");
+WriteLiteral("></span>\r\n            </div>\r\n\r\n            <div");
 
 WriteLiteral(" data-sf-role=\"list-loading-indicator\"");
 
@@ -683,13 +598,13 @@ WriteLiteral(" class=\"sf-loading\"");
 
 WriteLiteral(" style=\"display:none;\"");
 
-WriteLiteral(">\r\n\t\t\t\t<span></span>\r\n\t\t\t</div>\r\n\r\n       </div>\r\n");
+WriteLiteral(">\r\n                <span></span>\r\n            </div>\r\n\r\n        </div>\r\n");
 
             
-            #line 137 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 159 "..\..MVC\Views\Comments\Comments.Default.cshtml"
 
 
-        
+
         if (Model.RequiresAuthentication)
         {
 
@@ -704,20 +619,20 @@ WriteLiteral(" data-sf-role=\"comments-new-requires-authentication\"");
 
 WriteLiteral("><a");
 
-WriteAttribute("href", Tuple.Create(" href=\'", 6077), Tuple.Create("\'", 6103)
+WriteAttribute("href", Tuple.Create(" href=\'", 7744), Tuple.Create("\'", 7770)
             
-            #line 142 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                          , Tuple.Create(Tuple.Create("", 6084), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
+            #line 164 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+                          , Tuple.Create(Tuple.Create("", 7751), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
             
             #line default
             #line hidden
-, 6084), false)
+, 7751), false)
 );
 
 WriteLiteral(">");
 
             
-            #line 142 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 164 "..\..MVC\Views\Comments\Comments.Default.cshtml"
                                                                                                                           Write(Html.Resource("Login"));
 
             
@@ -726,7 +641,7 @@ WriteLiteral(">");
 WriteLiteral("</a>");
 
             
-            #line 142 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 164 "..\..MVC\Views\Comments\Comments.Default.cshtml"
                                                                                                                                                      Write(Html.Resource("ToBeAbleToComment"));
 
             
@@ -735,77 +650,89 @@ WriteLiteral("</a>");
 WriteLiteral("</div>\r\n");
 
             
-            #line 143 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 165 "..\..MVC\Views\Comments\Comments.Default.cshtml"
         }
     }
 
             
             #line default
             #line hidden
-WriteLiteral("    \r\n    ");
+WriteLiteral("\r\n    ");
 
 WriteLiteral("\r\n\r\n    <div");
+
+WriteLiteral(" class=\"comment_section_user\"");
 
 WriteLiteral(" data-sf-role=\"single-comment-template\"");
 
 WriteLiteral(">\r\n\r\n        <div");
 
-WriteLiteral(" class=\"media sf-media\"");
+WriteLiteral(" class=\"media comment_section\"");
 
 WriteLiteral(">\r\n            <div");
 
-WriteLiteral(" class=\"media-left sf-img-thmb\"");
+WriteLiteral(" class=\"pull-left post_comments\"");
 
-WriteLiteral("> \r\n                <img");
+WriteLiteral(">\r\n                <a");
 
-WriteLiteral(" alt=\"comment-avatar\"");
+WriteLiteral(" href=\"#\"");
 
-WriteLiteral(" data-sf-role=\"comment-avatar\"");
+WriteLiteral("><img");
 
-WriteLiteral(" width=\"40\"");
-
-WriteLiteral(" height=\"40\"");
-
-WriteAttribute("src", Tuple.Create(" src=\"", 6469), Tuple.Create("\"", 6522)
+WriteAttribute("src", Tuple.Create(" src=\"", 8106), Tuple.Create("\"", 8137)
             
-            #line 152 "..\..MVC\Views\Comments\Comments.Default.cshtml"
-                    , Tuple.Create(Tuple.Create("", 6475), Tuple.Create<System.Object, System.Int32>(Url.WidgetContent("assets/dist/img/dummy.jpg")
+            #line 174 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+, Tuple.Create(Tuple.Create("", 8112), Tuple.Create<System.Object, System.Int32>(Model.UserAvatarImageUrl
             
             #line default
             #line hidden
-, 6475), false)
+, 8112), false)
 );
 
-WriteLiteral("/>\r\n            </div>\r\n            <div");
+WriteLiteral(" data-sf-role=\"comment-avatar\"");
 
-WriteLiteral(" class=\"media-body sf-media-body\"");
+WriteLiteral(" class=\"img-circle\"");
 
-WriteLiteral(">\r\n           \r\n                <span");
+WriteLiteral(" alt=\"comment-avatar\"");
+
+WriteLiteral(" /></a>\r\n            </div>\r\n            <div");
+
+WriteLiteral(" class=\"media-body post_reply_comments\"");
+
+WriteLiteral(">\r\n                <h3><span");
 
 WriteLiteral(" data-sf-role=\"comment-name\"");
 
-WriteLiteral(" class=\"text-muted sf-Comments-list-author\"");
+WriteLiteral(" class=\"\"");
 
-WriteLiteral("></span> \r\n                <span");
+WriteLiteral("></span> </h3>\r\n                <h4><span");
 
 WriteLiteral(" data-sf-role=\"comment-date\"");
 
-WriteLiteral(" class=\"text-muted\"");
+WriteLiteral(" class=\"\"");
 
-WriteLiteral("></span>\r\n               \r\n                <p");
+WriteLiteral("></span></h4>\r\n                <p");
 
 WriteLiteral(" data-sf-role=\"comment-message\"");
 
-WriteLiteral("></p>\r\n            </div>  \r\n        </div>  \r\n\r\n    </div>\r\n\r\n</div>\r\n\r\n");
+WriteLiteral("></p>\r\n\r\n                ");
+
+WriteLiteral("\r\n\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n</div><!--/#contact-page-" +
+"->\r\n</div>\r\n");
 
             
-            #line 167 "..\..MVC\Views\Comments\Comments.Default.cshtml"
+            #line 193 "..\..MVC\Views\Comments\Comments.Default.cshtml"
 Write(Html.Script(Url.WidgetContent("Mvc/Scripts/comments-list.js"), "bottom", false));
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n\r\n");
+WriteLiteral("\r\n\r\n<script");
+
+WriteLiteral(" type=\"text/javascript\"");
+
+WriteLiteral(">\r\n\r\n    $(document).ready(function () {\r\n        $(\'.comment_section_user:last\')" +
+".fadeOut();\r\n    });\r\n</script>");
 
         }
     }

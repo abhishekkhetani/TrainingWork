@@ -1,0 +1,325 @@
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:25 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:55 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 10:18:55 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:13:22 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:23 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:23 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:23 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:23 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:24 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:24 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:25 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:53 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:40:53 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 1:41:14 PM
+
+Message: Error while executing the Task: Invalid URI: The format of the URI could not be determined., StackTrace:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Web.HttpRequest..ctor(String filename, String url, String queryString)
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Frontend.FilesMonitoring.FileMonitor.<>c__DisplayClassd.<CreateFiles>b__b()
+   at Telerik.Sitefinity.BackgroundTasks.BackgroundTasksService.BackgorundTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:24 PM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:54 PM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/24/2017 2:13:54 PM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. All currently running threads will finish their work and stop.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: Background task scheduler shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:52 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:34:53 AM
+
+Message: WorkerThread is shut down
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:35:22 AM
+
+Message: Shutting down threadpool...
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 8:35:22 AM
+
+Message: Thread pool 'BackgroundTasksService': Shutdown of thread pool completed. Threads aborted.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/25/2017 10:13:29 AM
+
+Message: Error while executing the Task: Invalid URI: The format of the URI could not be determined., StackTrace:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Web.HttpRequest..ctor(String filename, String url, String queryString)
+   at Telerik.Sitefinity.Services.SystemManager.RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate delegateToRun, Object[] parameters, String urlRequest)
+   at Telerik.Sitefinity.Frontend.FilesMonitoring.FileMonitor.<>c__DisplayClassd.<CreateFiles>b__b()
+   at Telerik.Sitefinity.BackgroundTasks.BackgroundTasksService.BackgorundTask.Run(IBackgroundTaskContext context)
+   at Telerik.Sitefinity.BackgroundTasks.WorkerThread.Run(IBackgroundTaskContext context)
+
+
+----------------------------------------

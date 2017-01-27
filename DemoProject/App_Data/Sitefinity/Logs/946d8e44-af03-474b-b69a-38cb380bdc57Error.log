@@ -1,0 +1,57 @@
+----------------------------------------
+Timestamp: 1/24/2017 9:42:11 AM
+
+Message: HandlingInstanceID: d6a76149-d00f-435b-a116-a1a42346dea9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/24/2017 15:12:11
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : CIPL-PC146
+TimeStamp : 1/24/2017 9:42:11 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.2.6200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : f3cfe429-1-131297244600217309
+ThreadIdentity : 
+WindowsIdentity : CYGNET\adkhetani
+Requested URL : http://localhost:7996/DemoProject/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: CIPL-PC146
+
+App Domain: f3cfe429-1-131297244600217309
+
+ProcessId: 6148
+
+Process Name: D:\Software\Sitefinity 9.2\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3820
+
+Extended Properties: 
+----------------------------------------

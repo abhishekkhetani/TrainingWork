@@ -76,49 +76,45 @@ Write(!String.IsNullOrEmpty(Model.CssClass) ?
             
             #line default
             #line hidden
-WriteLiteral("\r\n    <div");
-
-WriteLiteral(" class=\"widget search form-group\"");
-
-WriteLiteral(">\r\n    <input");
+WriteLiteral("\r\n    \r\n    <input");
 
 WriteLiteral(" type=\"search\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 536), Tuple.Create("\"", 573)
+WriteAttribute("title", Tuple.Create(" title=\"", 498), Tuple.Create("\"", 535)
             
             #line 16 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 544), Tuple.Create<System.Object, System.Int32>(Html.Resource("SearchInput")
+, Tuple.Create(Tuple.Create("", 506), Tuple.Create<System.Object, System.Int32>(Html.Resource("SearchInput")
             
             #line default
             #line hidden
-, 544), false)
+, 506), false)
 );
 
 WriteLiteral(" placeholder=\"Search Here\"");
 
-WriteAttribute("id", Tuple.Create(" id=\"", 600), Tuple.Create("\"", 631)
+WriteAttribute("id", Tuple.Create(" id=\"", 562), Tuple.Create("\"", 593)
             
             #line 16 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-              , Tuple.Create(Tuple.Create("", 605), Tuple.Create<System.Object, System.Int32>(Html.Raw(searchTextBoxId)
+              , Tuple.Create(Tuple.Create("", 567), Tuple.Create<System.Object, System.Int32>(Html.Raw(searchTextBoxId)
             
             #line default
             #line hidden
-, 605), false)
+, 567), false)
 );
 
 WriteLiteral(" class=\"form-control search_box\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 664), Tuple.Create("\"", 702)
+WriteAttribute("value", Tuple.Create(" value=\"", 626), Tuple.Create("\"", 664)
             
             #line 16 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-                                                                                 , Tuple.Create(Tuple.Create("", 672), Tuple.Create<System.Object, System.Int32>(Html.Raw(ViewBag.SearchQuery)
+                                                                                 , Tuple.Create(Tuple.Create("", 634), Tuple.Create<System.Object, System.Int32>(Html.Raw(ViewBag.SearchQuery)
             
             #line default
             #line hidden
-, 672), false)
+, 634), false)
 );
 
-WriteLiteral(" />\r\n</div>\r\n    ");
+WriteLiteral(" />\r\n\r\n    ");
 
 WriteLiteral("\r\n\t\r\n\t<input");
 
@@ -126,14 +122,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"resultsUrl\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 891), Tuple.Create("\"", 926)
+WriteAttribute("value", Tuple.Create(" value=\"", 847), Tuple.Create("\"", 882)
             
             #line 20 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 899), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.ResultsUrl)
+, Tuple.Create(Tuple.Create("", 855), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.ResultsUrl)
             
             #line default
             #line hidden
-, 899), false)
+, 855), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -142,14 +138,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"indexCatalogue\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 986), Tuple.Create("\"", 1025)
+WriteAttribute("value", Tuple.Create(" value=\"", 942), Tuple.Create("\"", 981)
             
             #line 21 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 994), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.IndexCatalogue)
+, Tuple.Create(Tuple.Create("", 950), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.IndexCatalogue)
             
             #line default
             #line hidden
-, 994), false)
+, 950), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -158,14 +154,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"wordsMode\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1080), Tuple.Create("\"", 1125)
+WriteAttribute("value", Tuple.Create(" value=\"", 1036), Tuple.Create("\"", 1081)
             
             #line 22 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1088), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.WordsMode.ToString())
+, Tuple.Create(Tuple.Create("", 1044), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.WordsMode.ToString())
             
             #line default
             #line hidden
-, 1088), false)
+, 1044), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -174,14 +170,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"disableSuggestions\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 1189), Tuple.Create("\'", 1263)
+WriteAttribute("value", Tuple.Create(" value=\'", 1145), Tuple.Create("\'", 1219)
             
             #line 23 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1197), Tuple.Create<System.Object, System.Int32>(Model.DisableSuggestions ? Html.Raw("true") : Html.Raw("false")
+, Tuple.Create(Tuple.Create("", 1153), Tuple.Create<System.Object, System.Int32>(Model.DisableSuggestions ? Html.Raw("true") : Html.Raw("false")
             
             #line default
             #line hidden
-, 1197), false)
+, 1153), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -190,14 +186,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"minSuggestionLength\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1328), Tuple.Create("\"", 1372)
+WriteAttribute("value", Tuple.Create(" value=\"", 1284), Tuple.Create("\"", 1328)
             
             #line 24 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1336), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MinSuggestionLength)
+, Tuple.Create(Tuple.Create("", 1292), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MinSuggestionLength)
             
             #line default
             #line hidden
-, 1336), false)
+, 1292), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -206,14 +202,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"suggestionFields\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1434), Tuple.Create("\"", 1475)
+WriteAttribute("value", Tuple.Create(" value=\"", 1390), Tuple.Create("\"", 1431)
             
             #line 25 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1442), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.SuggestionFields)
+, Tuple.Create(Tuple.Create("", 1398), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.SuggestionFields)
             
             #line default
             #line hidden
-, 1442), false)
+, 1398), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -222,14 +218,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"language\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1529), Tuple.Create("\"", 1562)
+WriteAttribute("value", Tuple.Create(" value=\"", 1485), Tuple.Create("\"", 1518)
             
             #line 26 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1537), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.Language)
+, Tuple.Create(Tuple.Create("", 1493), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.Language)
             
             #line default
             #line hidden
-, 1537), false)
+, 1493), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -238,14 +234,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"suggestionsRoute\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1624), Tuple.Create("\"", 1665)
+WriteAttribute("value", Tuple.Create(" value=\"", 1580), Tuple.Create("\"", 1621)
             
             #line 27 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1632), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.SuggestionsRoute)
+, Tuple.Create(Tuple.Create("", 1588), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.SuggestionsRoute)
             
             #line default
             #line hidden
-, 1632), false)
+, 1588), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -254,14 +250,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchTextBoxId\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 1726), Tuple.Create("\'", 1769)
+WriteAttribute("value", Tuple.Create(" value=\'", 1682), Tuple.Create("\'", 1725)
             
             #line 28 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1734), Tuple.Create<System.Object, System.Int32>("#" + searchTextBoxId.ToString()
+, Tuple.Create(Tuple.Create("", 1690), Tuple.Create<System.Object, System.Int32>("#" + searchTextBoxId.ToString()
             
             #line default
             #line hidden
-, 1734), false)
+, 1690), false)
 );
 
 WriteLiteral(" />\r\n    <input");
@@ -270,14 +266,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchButtonId\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 1829), Tuple.Create("\'", 1871)
+WriteAttribute("value", Tuple.Create(" value=\'", 1785), Tuple.Create("\'", 1827)
             
             #line 29 "..\..MVC\Views\SearchBox\SearchBox.cshtml"
-, Tuple.Create(Tuple.Create("", 1837), Tuple.Create<System.Object, System.Int32>("#" + searchButtonId.ToString()
+, Tuple.Create(Tuple.Create("", 1793), Tuple.Create<System.Object, System.Int32>("#" + searchButtonId.ToString()
             
             #line default
             #line hidden
-, 1837), false)
+, 1793), false)
 );
 
 WriteLiteral(" />\r\n</div>\r\n\r\n");

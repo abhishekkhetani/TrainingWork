@@ -77,7 +77,6 @@ namespace SitefinityWebApp.Mvc.Controllers
             {
                 var myCollection = dynamicModuleManager.GetDataItems(abhishekkhetaniType).ToList().Distinct();
                 myCollection = myCollection.Where(d => d.Status == Telerik.Sitefinity.GenericContent.Model.ContentLifecycleStatus.Live && d.Visible == true);
-
                 foreach (var getPortfolio in myCollection)
                 {
                     CategoriesModel cTempModel = new CategoriesModel();
