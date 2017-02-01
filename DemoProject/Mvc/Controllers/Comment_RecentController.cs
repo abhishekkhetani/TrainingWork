@@ -16,6 +16,9 @@ using Telerik.Sitefinity.Taxonomies.Model;
 using Telerik.Sitefinity.Services;
 using Telerik.Sitefinity.Services.Comments;
 using Telerik.Sitefinity;
+using System.Threading;
+using Telerik.Sitefinity.Web.UI;
+using Telerik.Sitefinity.Blogs.Model;
 
 namespace SitefinityWebApp.Mvc.Controllers
 {
@@ -46,21 +49,20 @@ namespace SitefinityWebApp.Mvc.Controllers
         /// </summary>
         public ActionResult Index()
         {
-            var model = new Comment_RecentModel();
+            // Gets an instance of the comments service
+            var cs = SystemManager.GetCommentsService();
 
-            TaxonomyManager taxonomyManager = TaxonomyManager.GetManager();
-            BlogsManager blogsManager = BlogsManager.GetManager();
+            //instantiate comment filter
+            var commentFilter = new CommentFilter();
 
-            var blogs = blogsManager.GetBlogPosts();
-
-            foreach (var blog in blogs)
-            {
-                var comments = blog.Comments.ToList();
-            }
-
-            List<Comment_RecentModel> comment_RecentList = new List<Comment_RecentModel>();
-           
-            return View("Default", comment_RecentList);
+            //gets the thread related to the blog post
+            //var language = Thread.CurrentThread.CurrentUICulture.Name;
+            //var threadKey = ControlUtilities.GetLocalizedKey(blogPost.Id, language);
+            commentFilter.ThreadType.Add(typeof(BlogPost).FullName);
+            //get the comment with the specified commentKey
+            var comments = cs.GetComments(commentFilter).OrderByDescending(x => x.DateCreated).Take(3);
+            ViewBag.Comments = comments;
+            return View("Default");
         }
     }
 }

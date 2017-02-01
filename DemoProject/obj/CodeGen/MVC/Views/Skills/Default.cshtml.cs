@@ -29,24 +29,14 @@ namespace ASP
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/MVC/Views/Skills/Default.cshtml")]
-    public partial class _MVC_Views_Skills_Default_cshtml : System.Web.Mvc.WebViewPage<List<SitefinityWebApp.Mvc.Models.SkillsModel>>
+    public partial class _MVC_Views_Skills_Default_cshtml : System.Web.Mvc.WebViewPage<SitefinityWebApp.Mvc.Models.SkillsModel>
     {
         public _MVC_Views_Skills_Default_cshtml()
         {
         }
         public override void Execute()
         {
-WriteLiteral("\r\n\r\n");
-
-            
-            #line 7 "..\..\MVC\Views\Skills\Default.cshtml"
- foreach (SitefinityWebApp.Mvc.Models.SkillsModel skill in Model)
-{ 
-
-            
-            #line default
-            #line hidden
-WriteLiteral("<div");
+WriteLiteral("\r\n<div");
 
 WriteLiteral(" class=\"col-sm-3\"");
 
@@ -65,8 +55,8 @@ WriteLiteral(" class=\"joomla-skill\"");
 WriteLiteral(">\r\n            <p><em>");
 
             
-            #line 12 "..\..\MVC\Views\Skills\Default.cshtml"
-              Write(skill.Percentage);
+            #line 9 "..\..\MVC\Views\Skills\Default.cshtml"
+              Write(Model.Percentage_1);
 
             
             #line default
@@ -74,20 +64,116 @@ WriteLiteral(">\r\n            <p><em>");
 WriteLiteral("%</em></p>\r\n            <p>");
 
             
-            #line 13 "..\..\MVC\Views\Skills\Default.cshtml"
-          Write(skill.SkillName);
+            #line 10 "..\..\MVC\Views\Skills\Default.cshtml"
+          Write(Model.Skill_1);
 
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+WriteLiteral("</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div");
+
+WriteLiteral(" class=\"col-sm-3\"");
+
+WriteLiteral(">\r\n    <div");
+
+WriteLiteral(" class=\"sinlge-skill wow fadeInDown\"");
+
+WriteLiteral(" data-wow-duration=\"1000ms\"");
+
+WriteLiteral(" data-wow-delay=\"300ms\"");
+
+WriteLiteral(">\r\n        <div");
+
+WriteLiteral(" class=\"joomla-skill\"");
+
+WriteLiteral(">\r\n            <p><em>");
 
             
             #line 17 "..\..\MVC\Views\Skills\Default.cshtml"
-}
+              Write(Model.Percentage_2);
+
             
             #line default
             #line hidden
+WriteLiteral("%</em></p>\r\n            <p>");
+
+            
+            #line 18 "..\..\MVC\Views\Skills\Default.cshtml"
+          Write(Model.Skill_2);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div");
+
+WriteLiteral(" class=\"col-sm-3\"");
+
+WriteLiteral(">\r\n    <div");
+
+WriteLiteral(" class=\"sinlge-skill wow fadeInDown\"");
+
+WriteLiteral(" data-wow-duration=\"1000ms\"");
+
+WriteLiteral(" data-wow-delay=\"300ms\"");
+
+WriteLiteral(">\r\n        <div");
+
+WriteLiteral(" class=\"joomla-skill\"");
+
+WriteLiteral(">\r\n            <p><em>");
+
+            
+            #line 25 "..\..\MVC\Views\Skills\Default.cshtml"
+              Write(Model.Percentage_3);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("%</em></p>\r\n            <p>");
+
+            
+            #line 26 "..\..\MVC\Views\Skills\Default.cshtml"
+          Write(Model.Skill_3);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div");
+
+WriteLiteral(" class=\"col-sm-3\"");
+
+WriteLiteral(">\r\n    <div");
+
+WriteLiteral(" class=\"sinlge-skill wow fadeInDown\"");
+
+WriteLiteral(" data-wow-duration=\"1000ms\"");
+
+WriteLiteral(" data-wow-delay=\"300ms\"");
+
+WriteLiteral(">\r\n        <div");
+
+WriteLiteral(" class=\"joomla-skill\"");
+
+WriteLiteral(">\r\n            <p><em>");
+
+            
+            #line 33 "..\..\MVC\Views\Skills\Default.cshtml"
+              Write(Model.Percentage_4);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("%</em></p>\r\n            <p>");
+
+            
+            #line 34 "..\..\MVC\Views\Skills\Default.cshtml"
+          Write(Model.Skill_4);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</p>\r\n        </div>\r\n    </div>\r\n</div>");
+
         }
     }
 }

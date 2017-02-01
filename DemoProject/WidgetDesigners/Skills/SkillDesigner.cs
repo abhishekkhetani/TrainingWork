@@ -10,7 +10,7 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
     /// <summary>
     /// Represents a designer for the <typeparamref name="SitefinityWebApp.Mvc.Controllers.SkillsController"/> widget
     /// </summary>
-    public class SkillsDesigner : ControlDesignerBase
+    public class SkillDesigner : ControlDesignerBase
     {
         #region Properties
         /// <summary>
@@ -32,7 +32,7 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
             get
             {
                 if (string.IsNullOrEmpty(base.LayoutTemplatePath))
-                    return SkillsDesigner.layoutTemplatePath;
+                    return SkillDesigner.layoutTemplatePath;
                 return base.LayoutTemplatePath;
             }
             set
@@ -95,50 +95,6 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
             }
         }
 
-        /// <summary>
-        /// Gets the control that is bound to the Skill_3 property
-        /// </summary>
-        protected virtual Control Skill_3
-        {
-            get
-            {
-                return this.Container.GetControl<Control>("Skill_3", true);
-            }
-        }
-
-        /// <summary>
-        /// Gets the control that is bound to the Percentage_3 property
-        /// </summary>
-        protected virtual Control Percentage_3
-        {
-            get
-            {
-                return this.Container.GetControl<Control>("Percentage_3", true);
-            }
-        }
-
-        /// <summary>
-        /// Gets the control that is bound to the Skill_4 property
-        /// </summary>
-        protected virtual Control Skill_4
-        {
-            get
-            {
-                return this.Container.GetControl<Control>("Skill_4", true);
-            }
-        }
-
-        /// <summary>
-        /// Gets the control that is bound to the Percentage_4 property
-        /// </summary>
-        protected virtual Control Percentage_4
-        {
-            get
-            {
-                return this.Container.GetControl<Control>("Percentage_4", true);
-            }
-        }
-
         #endregion
 
         #region Methods
@@ -161,10 +117,6 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
             descriptor.AddElementProperty("percentage_1", this.Percentage_1.ClientID);
             descriptor.AddElementProperty("skill_2", this.Skill_2.ClientID);
             descriptor.AddElementProperty("percentage_2", this.Percentage_2.ClientID);
-            descriptor.AddElementProperty("skill_3", this.Skill_3.ClientID);
-            descriptor.AddElementProperty("percentage_3", this.Percentage_3.ClientID);
-            descriptor.AddElementProperty("skill_4", this.Skill_4.ClientID);
-            descriptor.AddElementProperty("percentage_4", this.Percentage_4.ClientID);
 
             return scriptDescriptors;
         }
@@ -175,14 +127,14 @@ namespace SitefinityWebApp.WidgetDesigners.Skills
         public override System.Collections.Generic.IEnumerable<System.Web.UI.ScriptReference> GetScriptReferences()
         {
             var scripts = new List<ScriptReference>(base.GetScriptReferences());
-            scripts.Add(new ScriptReference(SkillsDesigner.scriptReference));
+            scripts.Add(new ScriptReference(SkillDesigner.scriptReference));
             return scripts;
         }
         #endregion
 
         #region Private members & constants
-        public static readonly string layoutTemplatePath = "~/WidgetDesigners/Skills/SkillsDesigner.ascx";
-        public const string scriptReference = "~/WidgetDesigners/Skills/SkillsDesigner.js";
+        public static readonly string layoutTemplatePath = "~/WidgetDesigners/Skills/SkillDesigner.ascx";
+        public const string scriptReference = "~/WidgetDesigners/Skills/SkillDesigner.js";
         #endregion
     }
 }

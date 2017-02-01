@@ -7,6 +7,14 @@
 @using Telerik.Sitefinity.Libraries.Model;
 @using Telerik.Sitefinity;
 @using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.RelatedData;
+@using Telerik.Sitefinity.Blogs.Model;
+@using Telerik.Sitefinity.Modules.Blogs;
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Services.Comments;
+@using System.Threading;
+@using System.Threading.Tasks;
+@using Telerik.Sitefinity.Web.UI;
 
 @Html.Script(ScriptRef.JQuery, "top", false)
 <div class="@Model.CssClass">
@@ -16,14 +24,14 @@
             @if (@Model.Results.TotalCount > 0)
             {
 
-                        <div class="blog-content">
-                            <h1 style="color: #c52d2f; ">"<u>@Model.Results.TotalCount @Html.Raw(Model.ResultText)</u>" </h1>
-                        </div>
+                <div class="blog-content">
+                    <h1 style="color: #c52d2f; ">"<u>@Model.Results.TotalCount @Html.Raw(Model.ResultText)</u>" </h1>
+                </div>
 
             }
             else
             {
-                <h1>@Html.Resource("No") @Html.Raw(Model.ResultText)</h1>
+                <h1 style="color: #c52d2f; ">"<u>@Html.Resource("No") @Html.Raw(Model.ResultText)</u>"</h1>
             }
         </div>
         <div class="col-md-4">
@@ -107,17 +115,55 @@
 
 
                     <div class="media-body sf-media-body">
-
                         @if (hasLink)
                         {
                             <div class="blog-item">
                                 <div class="row">
+                                    @{
+
+                            string blogId = item.GetValue("ID").ToString();
+                            Guid blogGuid = new Guid(blogId);
+                            //Telerik.Sitefinity.Libraries.Model.Image image = (Telerik.Sitefinity.Libraries.Model.Image)item.GetValue("Image");
+                            BlogsManager blogsManager = BlogsManager.GetManager();
+                            var blogPost = blogsManager.GetBlogPost(blogGuid);
+                            var blogImage = blogPost.GetRelatedItems<Telerik.Sitefinity.Libraries.Model.Image>("Image").SingleOrDefault();
+
+                            //Comments count
+                            //gets an instance of the comments service
+                            var cs = SystemManager.GetCommentsService();
+
+                            //adds an instance to the comment filter
+                            var filter = new CommentFilter();
+
+                            //gets the thread related to the blog post
+                            var language = Thread.CurrentThread.CurrentUICulture.Name;
+                            var threadKey = ControlUtilities.GetLocalizedKey(blogGuid, language);
+
+                            //adds the thread key to the comments filter
+                            filter.ThreadKey.Add(threadKey);
+
+                            //retrieves all comments by specific blog post
+                            var comments = cs.GetComments(filter);
+
+                            // Author
+                            Telerik.Sitefinity.Security.UserManager manager = Telerik.Sitefinity.Security.UserManager.GetManager();
+                            Telerik.Sitefinity.Security.UserProfileManager pManager = Telerik.Sitefinity.Security.UserProfileManager.GetManager();
+                            
+                            Telerik.Sitefinity.Security.Model.User owner = manager.GetUser(blogPost.Owner);
+                            Telerik.Sitefinity.Security.Model.SitefinityProfile profile = pManager.GetUserProfiles(blogPost.Owner).Where(p => p.GetType().FullName == typeof(Telerik.Sitefinity.Security.Model.SitefinityProfile).FullName).SingleOrDefault() as Telerik.Sitefinity.Security.Model.SitefinityProfile; 
+                            
+                                    }
                                     <div class="col-xs-12 col-sm-2 text-center">
+                                        <div class="entry-meta">
+                                            <span id="publish_date">@Convert.ToDateTime(blogPost.PublicationDate).ToString("dd MMM")</span>
+                                            <span><i class="fa fa-user"></i> <a>@profile.FirstName @profile.LastName</a></span>
+                                            <span><i class="fa fa-comment"></i> <a href="@item.GetValue("Link")">@comments.Count() comments</a></span>
+                                            <span><i class="fa fa-heart"></i><a>56 Likes</a></span>
+                                        </div>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-10 blog-content">
-
-                                        <a href="@item.GetValue("Link")"><img class="img-responsive img-blog" src="" width="100%" alt="" /></a>
+                                        <a href="@item.GetValue("Link")"><img class="img-responsive img-blog" src="@blogImage.MediaUrl" width="100%" alt="" /></a>
 
                                         <h2><a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@item.GetValue("Link")">@item.GetValue("Title")</a></h2>
                                         <h3 @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@item.GetValue("Summary")</h3>
@@ -127,6 +173,7 @@
 
                                 </div>
                             </div><!--/.blog-item-->
+
                         }
                         else
                         {
@@ -173,7 +220,5 @@
     <input type="hidden" data-sf-role="searchResWordsMode" value='@Request.QueryString["wordsMode"]' />
 
 </div>
-
-
 @Html.Script(Url.WidgetContent("Mvc/Scripts/SearchResults/Search-results.js"), "bottom")
 
