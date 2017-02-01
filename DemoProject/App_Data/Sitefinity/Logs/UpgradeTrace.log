@@ -1,112 +1,152 @@
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:00 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: Db Migration Complexity: Complex
+Message: Db Migration Complexity: Trivial
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:00 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
 Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:00 AM
+Timestamp: 1/31/2017 7:08:40 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 7:08:40 AM
 
 Message: Adding a new table(s).
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:00 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: Modifying a column(s) on an existing table(s).
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/27/2017 8:35:01 AM
-
-Message: -- Telerik.Sitefinity.DynamicTypes.Model.sf_contact
-CREATE TABLE [sf_contact] (
-    [id] uniqueidentifier NOT NULL,
-    [text_field_controller_0] NVARCHAR(255) NULL, -- sf_contact.TextFieldController_0
-    [text_field_controller] NVARCHAR(255) NULL, -- sf_contact.TextFieldController
-    CONSTRAINT [pk_sf_contact] PRIMARY KEY ([id])
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.CompanyPortfolio.CompanyPortfolio.Category
+CREATE TABLE [cmpnyprtfl_cmpnyprtfl_category] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_cmpnyprtfl_cmpnypr_69845CA2] PRIMARY KEY ([base_id], [seq])
 )
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:01 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: -- Column was read from database as: [voa_class] int null
--- modify column for field <internal-class-id>
-UPDATE [sf_form_entry]
-   SET [voa_class] = 0 -- Add your own default value here, for when [voa_class] is null.
- WHERE [voa_class] IS NULL
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/27/2017 8:35:01 AM
-
-Message: ALTER TABLE [sf_form_entry] ALTER COLUMN [voa_class] int NOT NULL
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.CompanyPortfolio.CompanyPortfolio
+CREATE TABLE [companyportfolio_companyportfolio] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- CompanyPortfolio.Title
+    [Description] NVARCHAR(MAX) NULL,       -- CompanyPortfolio.Description
+    CONSTRAINT [pk_cmpnyprtfl_cmpnypr_FB18ECFE] PRIMARY KEY ([base_id])
+)
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:35:01 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: ALTER TABLE [sf_contact] ADD CONSTRAINT [ref_sf_contact_sf_form_entry] FOREIGN KEY ([id]) REFERENCES [sf_form_entry]([id]) ON DELETE CASCADE
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
-
-Message: Db Migration Complexity: Extending
+Message: ALTER TABLE [cmpnyprtfl_cmpnyprtfl_category] ADD CONSTRAINT [ref_cmpnyprtfl_cmpnyp_D2198303] FOREIGN KEY ([base_id]) REFERENCES [companyportfolio_companyportfolio]([base_id])
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: Adding a column(s) on an existing table(s).
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
-
-Message: -- add column for field sf_contact.TextFieldController_3
-ALTER TABLE [sf_contact] ADD [text_field_controller_3] NVARCHAR(255) NULL
+Message: ALTER TABLE [companyportfolio_companyportfolio] ADD CONSTRAINT [ref_cmpnyprtfl_cmpnyp_8AC1C83C] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
+Timestamp: 1/31/2017 7:08:40 AM
 
-Message: -- add column for field sf_contact.TextFieldController_2
-ALTER TABLE [sf_contact] ADD [text_field_controller_2] NVARCHAR(255) NULL
-
-
-----------------------------------------
-----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
-
-Message: -- add column for field sf_contact.TextFieldController_1
-ALTER TABLE [sf_contact] ADD [text_field_controller_1] NVARCHAR(255) NULL
+Message: -- Index 'idx_cmpnyprtfl_cmpnyprtfl_ctgr' was not detected in the database. It will be created
+CREATE INDEX [idx_cmpnyprtfl_cmpnyprtfl_ctgr] ON [cmpnyprtfl_cmpnyprtfl_category]([val])
 
 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 1/27/2017 8:51:56 AM
+Timestamp: 1/31/2017 8:39:51 AM
 
-Message: -- add column for field sf_contact.ParagraphTextFieldController
-ALTER TABLE [sf_contact] ADD [pragraph_text_field_controller] NVARCHAR(MAX) NULL
+Message: Db Migration Complexity: Trivial
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.PortfolioCompany.PortfolioCompany
+CREATE TABLE [portfoliocompany_portfoliocompany] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- PortfolioCompany.Title
+    [Description] NVARCHAR(MAX) NULL,       -- PortfolioCompany.Description
+    CONSTRAINT [pk_prtflcmpny_prtflcm_7E7AA256] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: -- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.PortfolioCompany.PortfolioCompany.Category
+CREATE TABLE [prtflcmpny_prtflcmpny_category] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_prtflcmpny_prtflcm_44B99CA7] PRIMARY KEY ([base_id], [seq])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: ALTER TABLE [portfoliocompany_portfoliocompany] ADD CONSTRAINT [ref_prtflcmpny_prtflc_1D28EE3F] FOREIGN KEY ([base_id]) REFERENCES [sf_dynamic_content]([base_id]) ON DELETE CASCADE
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: ALTER TABLE [prtflcmpny_prtflcmpny_category] ADD CONSTRAINT [ref_prtflcmpny_prtflc_49B75149] FOREIGN KEY ([base_id]) REFERENCES [portfoliocompany_portfoliocompany]([base_id])
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2017 8:39:51 AM
+
+Message: -- Index 'idx_prtflcmpny_prtflcmpny_ctgr' was not detected in the database. It will be created
+CREATE INDEX [idx_prtflcmpny_prtflcmpny_ctgr] ON [prtflcmpny_prtflcmpny_category]([val])
 
 
 ----------------------------------------

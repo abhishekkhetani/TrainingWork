@@ -32,29 +32,5 @@
     <div class="sfExample"></div>
     </li>
     
-    <li class="sfFormCtrl">
-    <asp:Label runat="server" AssociatedControlID="Skill_3" CssClass="sfTxtLbl">Skill_3</asp:Label>
-    <asp:TextBox ID="Skill_3" runat="server" CssClass="sfTxt" />
-    <div class="sfExample"></div>
-    </li>
-    
-    <li class="sfFormCtrl">
-    <asp:Label runat="server" AssociatedControlID="Percentage_3" CssClass="sfTxtLbl">Percentage_3</asp:Label>
-    <asp:TextBox ID="Percentage_3" runat="server" CssClass="sfTxt" />
-    <div class="sfExample"></div>
-    </li>
-    
-    <li class="sfFormCtrl">
-    <asp:Label runat="server" AssociatedControlID="Skill_4" CssClass="sfTxtLbl">Skill_4</asp:Label>
-    <asp:TextBox ID="Skill_4" runat="server" CssClass="sfTxt" />
-    <div class="sfExample"></div>
-    </li>
-    
-    <li class="sfFormCtrl">
-    <asp:Label runat="server" AssociatedControlID="Percentage_4" CssClass="sfTxtLbl">Percentage_4</asp:Label>
-    <asp:TextBox ID="Percentage_4" runat="server" CssClass="sfTxt" />
-    <div class="sfExample"></div>
-    </li>
-    
 </ol>
 </div>

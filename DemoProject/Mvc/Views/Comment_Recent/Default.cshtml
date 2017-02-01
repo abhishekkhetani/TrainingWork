@@ -1,15 +1,14 @@
-@model List<SitefinityWebApp.Mvc.Models.Comment_RecentModel>
+@model SitefinityWebApp.Mvc.Models.Comment_RecentModel
 
-<div class="col-sm-12">
-  
-    @foreach(var comment in Model)
+
+    @foreach (var comment in ViewBag.Comments)
     {
         <div class="single_comments">
-            <img src="@comment.Image" alt="" />
-            <p>@comment.Title</p>
+            <img src="/images/default-source/Project/blog/avatar3.png" alt="" />
+            <p>@comment.Message</p>
             <div class="entry-meta small muted">
-                <span>By <a href="#">@comment.Author</a></span><span>On <a href="#">@comment.Category</a></span>
+                <span>By <a href="#">@comment.Author.Name</a></span><span>On <a href="#">Creative</a></span>
             </div>
         </div>
+      <br />
     }
-</div>

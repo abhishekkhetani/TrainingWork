@@ -19,9 +19,14 @@ namespace SitefinityWebApp.Mvc.Controllers
         /// Gets or sets the message.
         /// </summary>
         [Category("String Properties")]
-        public string Message { get; set; }
-        public string SkillName { get; set; }
-        public string Percentage { get; set; }
+        public string Skill_1 { get; set; }
+        public string Percentage_1 { get; set; }
+        public string Skill_2 { get; set; }
+        public string Percentage_2 { get; set; }
+        public string Skill_3 { get; set; }
+        public string Percentage_3 { get; set; }
+        public string Skill_4 { get; set; }
+        public string Percentage_4 { get; set; }
 
         /// <summary>
         /// This is the default Action.
@@ -29,44 +34,51 @@ namespace SitefinityWebApp.Mvc.Controllers
         public ActionResult Index()
         {
             var model = new SkillsModel();
-            if (string.IsNullOrEmpty(this.Message))
+
+            if (this.Skill_1 != null)
             {
-                model.Message = "Hello, World!";
+                model.Skill_1 = this.Skill_1;
+                model.Percentage_1 = this.Percentage_1;
             }
             else
             {
-                model.Message = this.Message;
+                model.Skill_1 = "C#";
+                model.Percentage_1 = "90";
             }
 
-            // Get Skills Data
-            // Set the provider name for the DynamicModuleManager here. All available providers are listed in
-            // Administration -> Settings -> Advanced -> DynamicModules -> Providers
-            var providerName = String.Empty;
-
-            // Set a transaction name
-            var transactionName = "someTransactionName";
-
-            DynamicModuleManager dynamicModuleManager = DynamicModuleManager.GetManager(providerName, transactionName);
-            Type skillsType = TypeResolutionService.ResolveType("Telerik.Sitefinity.DynamicTypes.Model.Skill.skills");
-
-            // This is how we get the collection of Services items
-            var myCollection = dynamicModuleManager.GetDataItems(skillsType).ToList().Distinct();
-            myCollection = myCollection.Where(d => d.Status == Telerik.Sitefinity.GenericContent.Model.ContentLifecycleStatus.Live && d.Visible == true);
-            List<SkillsModel> servicesModel = new List<SkillsModel>();
-
-            foreach (var getSkill in myCollection)
+            if (this.Skill_2 != null)
             {
-                SkillsModel sTempModel = new SkillsModel();
-
-                sTempModel.SkillName = getSkill.GetValue("Skill").ToString();
-                sTempModel.Percentage = getSkill.GetValue("Percentage").ToString();
-              
-                servicesModel.Add(sTempModel);
-
-                sTempModel = null;
+                model.Skill_2 = this.Skill_2;
+                model.Percentage_2 = this.Percentage_2;
+            }
+            else
+            {
+                model.Skill_2 = "C#";
+                model.Percentage_2 = "90";
             }
 
-            return View("Default", servicesModel);
+            if (this.Skill_3 != null)
+            {
+                model.Skill_3 = this.Skill_3;
+                model.Percentage_3 = this.Percentage_3;
+            }
+            else
+            {
+                model.Skill_3 = "C#";
+                model.Percentage_3 = "90";
+            }
+            if (this.Skill_4 != null)
+            {
+                model.Skill_4 = this.Skill_4;
+                model.Percentage_4 = this.Percentage_4;
+            }
+            else
+            {
+                model.Skill_4 = "C#";
+                model.Percentage_4 = "90";
+            }
+
+            return View("Default", model);
         }
     }
 }

@@ -685,10 +685,10 @@ input.search-form {
     background-size: cover;
 }
 
-.service-item2 .lead,
-.service-item2 h2 {
-    color: #fff;
-}
+    .service-item2 .lead,
+    .service-item2 h2 {
+        color: #fff;
+    }
 
 #services .lead,
 #services h2 {
@@ -1012,6 +1012,21 @@ a.accordion-toggle em {
         color: #fff;
     }
 
+.partner-custom {
+    background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.partner-custom {
+    color: #fff;
+    text-align: center;
+}
+
+    .partner-custom h2,
+    .partner-custom h3 {
+        color: #fff;
+    }
+
 .partners ul {
     list-style: none;
     margin: 0;
@@ -1030,6 +1045,17 @@ a.accordion-toggle em {
 }
 
 .contact-info i {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-info em {
     width: 60px;
     height: 60px;
     font-size: 40px;

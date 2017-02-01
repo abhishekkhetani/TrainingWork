@@ -29,18 +29,14 @@ namespace ASP
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/MVC/Views/Comment_Recent/Default.cshtml")]
-    public partial class _MVC_Views_Comment_Recent_Default_cshtml : System.Web.Mvc.WebViewPage<List<SitefinityWebApp.Mvc.Models.Comment_RecentModel>>
+    public partial class _MVC_Views_Comment_Recent_Default_cshtml : System.Web.Mvc.WebViewPage<SitefinityWebApp.Mvc.Models.Comment_RecentModel>
     {
         public _MVC_Views_Comment_Recent_Default_cshtml()
         {
         }
         public override void Execute()
         {
-WriteLiteral("<div");
-
-WriteLiteral(" class=\"col-sm-12\"");
-
-WriteLiteral(">\r\n");
+WriteLiteral("\r\n");
 
             
             #line 4 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
@@ -50,7 +46,7 @@ WriteLiteral(">\r\n");
             #line hidden
             
             #line 4 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
-     foreach(var comment in Model)
+     foreach (var comment in ViewBag.Comments)
     {
 
             
@@ -62,15 +58,7 @@ WriteLiteral(" class=\"single_comments\"");
 
 WriteLiteral(">\r\n            <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 187), Tuple.Create("\"", 207)
-            
-            #line 7 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
-, Tuple.Create(Tuple.Create("", 193), Tuple.Create<System.Object, System.Int32>(comment.Image
-            
-            #line default
-            #line hidden
-, 193), false)
-);
+WriteLiteral(" src=\"/images/default-source/Project/blog/avatar3.png\"");
 
 WriteLiteral(" alt=\"\"");
 
@@ -78,7 +66,7 @@ WriteLiteral(" />\r\n            <p>");
 
             
             #line 8 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
-          Write(comment.Title);
+          Write(comment.Message);
 
             
             #line default
@@ -95,7 +83,7 @@ WriteLiteral(">");
 
             
             #line 10 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
-                                Write(comment.Author);
+                                Write(comment.Author.Name);
 
             
             #line default
@@ -104,26 +92,16 @@ WriteLiteral("</a></span><span>On <a");
 
 WriteLiteral(" href=\"#\"");
 
-WriteLiteral(">");
+WriteLiteral(">Creative</a></span>\r\n            </div>\r\n        </div>\r\n");
+
+WriteLiteral("      <br />\r\n");
 
             
-            #line 10 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
-                                                                               Write(comment.Category);
-
-            
-            #line default
-            #line hidden
-WriteLiteral("</a></span>\r\n            </div>\r\n        </div>\r\n");
-
-            
-            #line 13 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
+            #line 14 "..\..\MVC\Views\Comment_Recent\Default.cshtml"
     }
-
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n");
-
         }
     }
 }
